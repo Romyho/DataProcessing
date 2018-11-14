@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+# Name:Romy Ho
+# Student number:11007303
+"""
+This script visualizes data obtained from a .csv file and writes json file
+"""
+
+
 import pandas as pd
 import json
 import matplotlib.pyplot as plt
