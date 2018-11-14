@@ -2,39 +2,62 @@ import pandas as pd
 import json
 import matplotlib.pyplot as plt
 
-#datframe the file
-df = pd.read_csv('input.csv', )
+# Dataframe the data, index by countries
+df = pd.read_csv('input.csv',index_col='Country')
 
+# Delete rows with 'unknown' values
 for i in df.columns:
+    # Not in the integer columns
     if not (df[i].name == "Population" or df[i].name == "Area (sq. mi.)"):
         df = df.loc[df[i] != 'unknown']
 
+# Delete rows with missing values
 df = df.dropna()
 
+# Remove spaces and 'dollars'
 df['Region'] = df['Region'].str.strip()
 df['GDP ($ per capita) dollars']= df['GDP ($ per capita) dollars'].str.strip(' dollars')
 
-y = pd.to_numeric(df['GDP ($ per capita) dollars'])
-print('Mean GDP ($ per capita) dollars:', y.mean())
-print('Median GDP ($ per capita) dollars:', y.median())
-print('Mode GDP ($ per capita) dollars:', y.mode())
-print('Standard error GDP ($ per capita) dollars:', y.std())
-m = y.max()
-print('outlier GDP ($ per capita) dollars:', m)
+# Make a numeric column and calculate: mean, median and mode
+gdp = pd.to_numeric(df['GDP ($ per capita) dollars'])
+gdp.mean()
+gdp.median()
+gdp.mode()
 
+# Find outlier
+gdp.max()
+
+# Delete outlier
 df = df.loc[df['GDP ($ per capita) dollars']!= '400000']
 
-y_no_outliers = pd.to_numeric(df['GDP ($ per capita) dollars'])
+new_gdp = pd.to_numeric(df['GDP ($ per capita) dollars'])
 
+# Make floats of column by replacing ','
 df['Infant mortality (per 1000 births)']= df['Infant mortality (per 1000 births)'].str.replace(',', '')
-z = df['Infant mortality (per 1000 births)'].astype(float)
-print('Minimum infant mortality(per 1000 births):', z.min())
-print('Maximum infant mortality(per 1000 births):', z.max())
-print('1st, 2nd, 3rd quantile of :Infant mortality (per 1000 births)', z.quantile([0.25,0.5,0.75]))
+inf_mort = df['Infant mortality (per 1000 births)'].astype(float)
 
-plt.hist(y_no_outliers)
+# Calculate minimum, maximum and 1st, 2nd and 3rd quantile
+inf_mort.min()
+inf_mort.max()
+inf_mort.quantile([0.25,0.5,0.75])
+
+# Plot a histogram of GDP and a boxplot of infant mortality
+plt.hist(new_gdp)
 plt.xlabel("GDP")
-plt.tile("Histogram GDP ($ per capita) dollars")
+plt.title("Histogram GDP ($ per capita) dollars")
 plt.show()
-plt.boxplot(z)
+plt.boxplot(inf_mort)
+plt.ylabel('Infant mortality (per 1000 births)')
+plt.title('Boxplot infant mortality')
 plt.show()
+
+# Make a dataframe with the necessary variables
+df1 = df[['Region', 'Pop. Density (per sq. mi.)', 'Infant mortality (per 1000 births)', 'GDP ($ per capita) dollars' ]]
+
+# Make a dictionary, with the index as key
+data = df1.to_dict('index')
+
+# Write dictionary to json file
+with open('eda.json', 'w') as outfile:
+    j= json.dumps(data, indent=4)
+    json.dump(j, outfile)
