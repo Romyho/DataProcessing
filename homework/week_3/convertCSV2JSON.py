@@ -8,24 +8,26 @@ def convert(file_name):
 
     # Read csv file
     csv_name = file_name[0]
-    df = pd.read_csv(csv_name, index_col="Time")
+    df = pd.read_csv(csv_name)
 
-    # Select name for json file
-    outfile_name =csv_name.split('.')[0] +".json"
+    df1 = df[['Country', 'TIME', 'Value']]
+    df1 = df1.set_index('TIME')
 
     # Make dictionary, write to json structure
-    data = df.to_dict('index')
-    j = json.dumps(data, indent=4)
+    data = df1.to_dict('index')
+    # print(data)
 
+    # Json file name
+    json_name = csv_name.split(".csv")[0]+".json"
+
+    print(json.dumps(data, indent=4))
     # Write json file
-    with open(outfile_name, 'w') as outfile:
-        json.dump(j, outfile)
-
-
+    with open(json_name, 'w') as outfile:
+        json.dump(data, outfile, indent=4)
 
 
 
 if __name__ == "__main__":
 
     # Convert csv file to json
-     convert(sys.argv[1:])
+    convert(sys.argv[1:])
