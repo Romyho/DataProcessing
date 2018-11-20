@@ -11,10 +11,10 @@ def convert(file_name):
     df = pd.read_csv(csv_name)
 
     df1 = df[['Country', 'TIME', 'Value']]
-    df1 = df1.set_index('TIME')
+    # df1 = df1.set_index('T)
 
     # Make dictionary, write to json structure
-    data = df1.to_dict('index')
+    data = df1.to_dict('response')
     print(data)
 
     # Json file name

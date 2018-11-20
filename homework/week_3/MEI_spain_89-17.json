@@ -1,118 +1,147 @@
-{
-    "1989": {
+[
+    {
         "Country": "Spain",
+        "TIME": 1989,
         "Value": 15.03633
     },
-    "1990": {
+    {
         "Country": "Spain",
+        "TIME": 1990,
         "Value": 15.15158
     },
-    "1991": {
+    {
         "Country": "Spain",
+        "TIME": 1991,
         "Value": 13.22675
     },
-    "1992": {
+    {
         "Country": "Spain",
+        "TIME": 1992,
         "Value": 13.342
     },
-    "1993": {
+    {
         "Country": "Spain",
+        "TIME": 1993,
         "Value": 11.688080000000001
     },
-    "1994": {
+    {
         "Country": "Spain",
+        "TIME": 1994,
         "Value": 8.0085
     },
-    "1995": {
+    {
         "Country": "Spain",
+        "TIME": 1995,
         "Value": 9.355166
     },
-    "1996": {
+    {
         "Country": "Spain",
+        "TIME": 1996,
         "Value": 7.495
     },
-    "1997": {
+    {
         "Country": "Spain",
+        "TIME": 1997,
         "Value": 5.373333000000001
     },
-    "1998": {
+    {
         "Country": "Spain",
+        "TIME": 1998,
         "Value": 4.242
     },
-    "1999": {
+    {
         "Country": "Spain",
+        "TIME": 1999,
         "Value": 2.9635
     },
-    "2000": {
+    {
         "Country": "Spain",
+        "TIME": 2000,
         "Value": 4.391767
     },
-    "2001": {
+    {
         "Country": "Spain",
+        "TIME": 2001,
         "Value": 4.261783
     },
-    "2002": {
+    {
         "Country": "Spain",
+        "TIME": 2002,
         "Value": 3.3185919999999998
     },
-    "2003": {
+    {
         "Country": "Spain",
+        "TIME": 2003,
         "Value": 2.3334669999999997
     },
-    "2004": {
+    {
         "Country": "Spain",
+        "TIME": 2004,
         "Value": 2.106325
     },
-    "2005": {
+    {
         "Country": "Spain",
+        "TIME": 2005,
         "Value": 2.184675
     },
-    "2006": {
+    {
         "Country": "Spain",
+        "TIME": 2006,
         "Value": 3.079225
     },
-    "2007": {
+    {
         "Country": "Spain",
+        "TIME": 2007,
         "Value": 4.277608
     },
-    "2008": {
+    {
         "Country": "Spain",
+        "TIME": 2008,
         "Value": 4.634233
     },
-    "2009": {
+    {
         "Country": "Spain",
+        "TIME": 2009,
         "Value": 1.228358
     },
-    "2010": {
+    {
         "Country": "Spain",
+        "TIME": 2010,
         "Value": 0.81095
     },
-    "2011": {
+    {
         "Country": "Spain",
+        "TIME": 2011,
         "Value": 1.3906
     },
-    "2012": {
+    {
         "Country": "Spain",
+        "TIME": 2012,
         "Value": 0.5731834
     },
-    "2013": {
+    {
         "Country": "Spain",
+        "TIME": 2013,
         "Value": 0.2206667
     },
-    "2014": {
+    {
         "Country": "Spain",
+        "TIME": 2014,
         "Value": 0.20993330000000002
     },
-    "2015": {
+    {
         "Country": "Spain",
+        "TIME": 2015,
         "Value": -0.01936667
     },
-    "2016": {
+    {
         "Country": "Spain",
+        "TIME": 2016,
         "Value": -0.2636917
     },
-    "2017": {
+    {
         "Country": "Spain",
+        "TIME": 2017,
         "Value": -0.32905
     }
-}
+]

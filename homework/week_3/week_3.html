@@ -7,7 +7,8 @@
 <body>
 
 <h1> Romy Ho(11007303) </h1>
-<canvas id="canvas" width="300" height="300"></canvas>
+<p> Annual Interest Spain 1989-2017 </p>
+<canvas id="canvas" width="800" height="500"></canvas>
 <script>
 var fileName = "MEI_SPAIN_89-17.json";
 var txtFile = new XMLHttpRequest();
@@ -18,12 +19,14 @@ txtFile.onreadystatechange = function() {
         var max_value = 0;
         var min_value = 0;
         for(var i in data){
-            if(data[i].Value > max_value){
-            max_value = data[i].Value
-            }
-            if(data[i].Value < min_value){
-              min_value = data[i].Value
-            }
+          // console.log(i)
+          // console.log(data[i].TIME)
+          if(data[i].Value > max_value){
+          max_value = data[i].Value
+          }
+          if(data[i].Value < min_value){
+            min_value = data[i].Value
+          }
         }
         dom_value = [min_value, max_value];
         // console.log(dom_value)
@@ -33,33 +36,33 @@ txtFile.onreadystatechange = function() {
         dom_datum = [min_datum, max_datum];
         // console.log(dom_datum)
 
+        range_x = [200, 600]
+        range_y = [200, 400]
+
         createT_y = createTransform(dom_value, range_y);
         createT_x = createTransform(dom_datum, range_x);
-        // console.log(data.length)
-        var punt_1 = [createT_x(min_datum), createT_y(min_value)];
-        var punt_2 = [createT_x(max_datum), createT_y(max_value)];
-        // console.log(punt_1)
-        // console.log(punt_2)
 
-        // ctx.moveTo(createT_x(min_datum), createT_y(min_value));
-        // ctx.lineTo(createT_x(max_datum), createT_y(max_value));
 
-        for (var i = 0; i<(data.length-1); i++) {
-          // console.log("van")
-          // console.log(createT_x(data[i].TIME), createT_y(data[i].Value))
-          ctx.moveTo(createT_x(data[i].TIME), createT_y(data[i].Value));
-          // ctx.scale(-1,1);
-          // console.log("naar")
-          // console.log(createT_x(data[(i+1)].TIME), createT_y(data[(i+1)].Value))
-          ctx.lineTo(createT_x(data[(i+1)].TIME), createT_y(data[(i+1)].Value));
+        for (var i = 0; i<(max_length-1); i++) {
+          console.log(createT_x(data[i].TIME), (600-createT_y(data[i].Value)))
+          ctx.moveTo(createT_x(data[i].TIME), (600-createT_y(data[i].Value)));
 
+          console.log(createT_x(data[(i+1)].TIME), (600-createT_y(data[(i+1)].Value)))
+          ctx.lineTo(createT_x(data[(i+1)].TIME), (600-createT_y(data[(i+1)].Value)));
           ctx.stroke();
           }
 
+        ctx.moveTo(180,100);
+        ctx.lineTo(180,420);
+        ctx.stroke();
+        //
+        ctx.moveTo(180,420);
+        ctx.lineTo(700,420);
+        ctx.stroke();
+
       }
     }
-    range_x = [0, 300]
-    range_y = [0, 100]
+
 
 
 
@@ -92,7 +95,7 @@ function createTransform(domain, range){
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
 ctx.strokeStyle = 'blue';
-ctx.strokeRect(0, 0, 400, 200);
+// ctx.strokeRect(0, 0, 400, 200);
 
 txtFile.open("GET", fileName);
 txtFile.send();
