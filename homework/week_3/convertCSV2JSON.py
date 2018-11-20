@@ -15,7 +15,7 @@ def convert(file_name):
 
     # Make dictionary, write to json structure
     data = df1.to_dict('index')
-    # print(data)
+    print(data)
 
     # Json file name
     json_name = csv_name.split(".csv")[0]+".json"
