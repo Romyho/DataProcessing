@@ -6,16 +6,17 @@
 </head>
 <body>
 
-  <p>OECD (2018), Monetary and Financial Statistics (database), (accessed on
-  19 nov 2018).</p>
-  <a href="https://stats.oecd.org/index.aspx?r=794285#">OECD.Stat</a>
 
 <canvas id="canvas" width="1200" height="700"></canvas>
 <script>
 // Open Json file
-var fileName = "MEI_SPAIN_89-17.json";
+// var fileName = "MEI_SPAIN_89-17.json";
+var url = "https://romyho.github.io/DataProcessing/homework/week_3/MEI_spain_89-17.json"
 var txtFile = new XMLHttpRequest();
-txtFile.onreadystatechange = function() {
+// var xhr  = new XMLHttpRequest()
+txtFile.open('GET', url, true)
+txtFile.onload = function () {
+// txtFile.onreadystatechange = function() {
     if (txtFile.readyState === 4 && txtFile.status == 200) {
         var data = JSON.parse(txtFile.responseText);
         // Calculate domain of the values
@@ -138,11 +139,14 @@ ctx.fillText("11007303",82,34)
 ctx.fillText("Assignment week 3:JavaScript intro", 150, 600)
 
 
-txtFile.open("GET", fileName);
-txtFile.send();
+// txtFile.open("GET", url);
+txtFile.send(null);
 
 </script>
 
+<p>OECD (2018), Monetary and Financial Statistics (database), (accessed on
+19 nov 2018).</p>
+<a href="https://stats.oecd.org/index.aspx?r=794285#">OECD.Stat</a>
 
 
 
