@@ -5,18 +5,20 @@
 <title></title>
 </head>
 <body>
+
   <p>OECD (2018), Monetary and Financial Statistics (database), (accessed on
   19 nov 2018).</p>
   <a href="https://stats.oecd.org/index.aspx?r=794285#">OECD.Stat</a>
 
 <canvas id="canvas" width="1200" height="700"></canvas>
 <script>
+// Open Json file
 var fileName = "MEI_SPAIN_89-17.json";
 var txtFile = new XMLHttpRequest();
 txtFile.onreadystatechange = function() {
     if (txtFile.readyState === 4 && txtFile.status == 200) {
         var data = JSON.parse(txtFile.responseText);
-        var count = Object.keys(data).length;
+        // Calculate domain of the values
         var max_value = 0;
         var min_value = 0;
         for(var i in data){
@@ -35,12 +37,15 @@ txtFile.onreadystatechange = function() {
         max_datum = data[(max_length-1)].TIME
         dom_datum = [min_datum, max_datum];
 
+        // Set pixel range
         range_x = [200, 1000]
         range_y = [200, 600]
 
+        // Write a function for y and x pixels
         createT_y = createTransform(dom_value, range_y);
         createT_x = createTransform(dom_datum, range_x);
 
+        // Draw line and axis
         ctx.setLineDash([]);
         var y_as_values = [16,14,12,10,8,6,4,2,0,-2]
         for (var i = 0; i<(max_length-1); i++) {
@@ -67,6 +72,7 @@ txtFile.onreadystatechange = function() {
           }
         }
 
+        // Make titles
         ctx.font = "10px Arial";
         var begin_time = data[0].TIME
         var begin_x = createT_x(begin_time)
@@ -84,12 +90,13 @@ txtFile.onreadystatechange = function() {
         ctx.lineTo(1020,480);
         ctx.stroke();
 
+        // draw line for y=0
         ctx.setLineDash([5, 5]);
         ctx.moveTo(180, (625-createT_y(0)));
         ctx.lineTo(1020, (625-createT_y(0)));
         ctx.stroke()
 
-
+        // yaxis title
         ctx.font = "20px Arial";
         ctx.rotate(-90 * Math.PI / 180);
         ctx.fillText("Interest", -220, 120)
@@ -119,7 +126,7 @@ function createTransform(domain, range){
     }
 }
 
-//
+// Name, Student Number, assignment title, graph title
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
 ctx.font = "30px Arial";
