@@ -10,10 +10,9 @@
 <canvas id="canvas" width="1200" height="700"></canvas>
 <script>
 // Open Json file
-// var fileName = "MEI_SPAIN_89-17.json";
+
 var url = "https://romyho.github.io/DataProcessing/homework/week_3/MEI_spain_89-17.json"
 var txtFile = new XMLHttpRequest();
-// var xhr  = new XMLHttpRequest()
 txtFile.open('GET', url, true)
 txtFile.onload = function () {
 // txtFile.onreadystatechange = function() {
@@ -63,9 +62,7 @@ txtFile.onload = function () {
           }
         for (var j = 0; j<(y_as_values.length); j++){
           var y = y_as_values[j]
-          console.log(y)
           var yy = (632-createT_y(y))
-          console.log(yy)
           ctx.fillText(y, 171, yy)
           if (y > 0){
             ctx.moveTo(178,yy)
@@ -103,7 +100,7 @@ txtFile.onload = function () {
         ctx.fillText("Interest", -220, 120)
       }
     }
-
+txtFile.send(null);
 function createTransform(domain, range){
 	// domain is a two-element array of the data bounds [domain_min, domain_max]
 	// range is a two-element array of the screen bounds [range_min, range_max]
@@ -137,10 +134,6 @@ ctx.font = "18px Arial";
 ctx.fillText("Romy Ho", 82,16)
 ctx.fillText("11007303",82,34)
 ctx.fillText("Assignment week 3:JavaScript intro", 150, 600)
-
-
-// txtFile.open("GET", url);
-txtFile.send(null);
 
 </script>
 
