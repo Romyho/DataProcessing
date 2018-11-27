@@ -61,7 +61,7 @@
 
       // var width = w - margin.left - margin.right;
       // var height = h - margin.top - margin.bottom;
-      d3.json("/data.json").then(function(data) {
+      d3.json("https://romyho.github.io/DataProcessing/homework/week_4/data.json").then(function(data) {
 
           for (var i = 0; i<data.length; i++) {
                      dataset[i] = data[i].Value/1000
