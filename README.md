@@ -2,4 +2,4 @@
 ##Romy Ho
 ###Studentnummer: 11007303
 
-[Gitpages](https://romyho.github.io/DataProcessing)
+[My gitpage](https://romyho.github.io/DataProcessing)
