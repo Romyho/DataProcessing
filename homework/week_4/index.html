@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Education</title>
+    <script type="text/javascript" src="d3/d3.js"></script>
+    <style>
+        legend {
+        font-size: 12px;
+      }
+      .toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
+
+  </style>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+
+      d3.select("head")
+          .append("title")
+          .text("Renewable energy");
+      d3.select("body")
+          .append("h2")
+          .text("Romy Ho")
+      d3.select("body")
+          .append("h2")
+          .text("11007303")
+      d3.select("body")
+          .append("h3")
+          .text("Number of students in different countries in 2016, with \
+          barchelor degree for the programmes: Business, administration \
+          and law, Natural sciences, mathematics and statistics, Information and\
+          Communication Technologies ")
+      d3.select("body")
+          .append("p")
+          .text("This dataset contains information about number of students \
+          enrolled in different education programmes in 2016 for \
+          different countries. These programmes: Business, administration \
+          and law, Natural sciences, mathematics and statistics, Information and\
+          Communication Technologies are used and only on Bachelor’s or \
+          equivalent level. The data is visualize with a barchart. The programme\
+          names will be abbreviated with B, N and I.")
+
+
+      var width = 1000;
+			var height = 500;
+			var barPadding = 1;
+      var dataset = []
+      var country = []
+
+
+      // var width = w - margin.left - margin.right;
+      // var height = h - margin.top - margin.bottom;
+      d3.json("/data.json").then(function(data) {
+
+          for (var i = 0; i<data.length; i++) {
+                     dataset[i] = data[i].Value/1000
+                     country[i] = data[i].Country
+
+                 }
+           var max_value = 0;
+           var min_value = 0;
+
+           for(var i in data){
+
+             if(dataset[i] > max_value){
+             max_value = dataset[i]
+             }
+             if(dataset[i] < min_value){
+               min_value = dataset[i]
+             }
+           }
+           dom_value = [min_value, max_value];
+
+           max_length = data.length
+
+          var xScale = d3.scaleBand().range([0, width]).padding(0.4).domain(country)
+          var yScale = d3.scaleLinear()
+            .domain([min_value, max_value]) // input
+            .range([height, 0]); // output
+          var margin_x = 40
+          var margin_y = 20
+
+         var svg = d3.select("body")
+               .append("svg")
+               .attr("width", width)
+               .attr("height", height);
+        const colors = d3.scaleOrdinal().range(["#0080FF", "#003366", "#99CCFF"]);
+
+        svg.selectAll("rect")
+            .data(dataset)
+            .enter()
+             .append("rect")
+             .attr("fill", colors)
+            .attr("x", function(d, i) {
+                return i * (width / dataset.length) + (width / dataset.length   - barPadding) / 2+margin_x;
+                })
+              .attr("y", function(d) {
+                return height-d-margin_y
+              })
+             .attr("width", width / dataset.length)
+             .attr("height", function(d) {
+               return (d);
+             });
+
+             var x_axis = d3.axisBottom()
+                            .scale(xScale)
+
+
+             var y_axis = d3.axisLeft()
+                            .scale(yScale)
+
+            svg.append("g")
+              .attr("class", "y axis")
+              .call(y_axis)
+              .style("font-size", "5px")
+              .attr('transform', 'translate(40,' + -margin_y + ')')
+
+            svg.append("g")
+               .attr("class", "x axis")
+               .call(x_axis)
+               .style("font-size", "5px")
+               .attr('transform', 'translate(40,' + (height-margin_y) + ')')
+            var fields = ["B", "N", "I"]
+
+          	var legend = svg.append("g")
+          	  .attr("class", "legend")
+          	  .attr("height", 30)
+          	  .attr("width", 50)
+              .attr('transform', 'translate(-20,50)')
+
+
+              legend.selectAll('rect')
+                .data(colors)
+                .enter()
+                .append("rect")
+          	  .attr("x", width - 65)
+              .attr("y", function(d, i){ return i *  20;})
+          	  .attr("width", 10)
+          	  .attr("height", 10)
+          	  .style("fill", colors)
+
+              legend.selectAll('text')
+                .data(colors)
+                .enter()
+                .append("text")
+          	  .attr("x", width - 52)
+                .attr("y", function(d, i){ return i *  20 + 9;})
+          	  .text(function(d,i){
+                return fields[i]})
+
+              var tooltip = d3.select("body").append("div").attr("class", "toolTip");
+              var div = svg.append("div")
+              .attr("transform", "translate(" + 50 + "," + 20 + ")");
+
+
+              svg.append("g")
+            	.data(dataset)
+              .enter().append("rect")
+              .attr("x", function(d, i) {
+                  return i * (width / dataset.length) + (width / dataset.length   - barPadding) / 2+margin_x;
+                  })
+                .attr("y", function(d) {
+                  return height-d-margin_y
+                })
+               .attr("width", width / dataset.length)
+               .attr("height", function(d) {
+                 return (d);
+               })
+               .on("mousemove", function(d){
+                tooltip
+              .style("left", d3.event.pageX - 50 + "px")
+              .style("top", d3.event.pageY - 70 + "px")
+              .style("display", "inline-block")
+              .text(dataset)
+            })
+    		      .on("mouseout", function(d){ tooltip.style("display", "none");});
+
+
+
+        });
+
+
+</script>
+
+
+
+  </body>
+</html>

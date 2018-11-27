@@ -1,0 +1,512 @@
+[
+    {
+        "Country": "Australia",
+        "Field of education": "Business, administration and law",
+        "Value": 249714.324
+    },
+    {
+        "Country": "Australia",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 80579.207
+    },
+    {
+        "Country": "Australia",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 33152.204
+    },
+    {
+        "Country": "Austria",
+        "Field of education": "Business, administration and law",
+        "Value": 24315.446
+    },
+    {
+        "Country": "Austria",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 23551.903
+    },
+    {
+        "Country": "Austria",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 11392.851
+    },
+    {
+        "Country": "Belgium",
+        "Field of education": "Business, administration and law",
+        "Value": 72285.0
+    },
+    {
+        "Country": "Belgium",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 9474.0
+    },
+    {
+        "Country": "Belgium",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 11699.0
+    },
+    {
+        "Country": "Canada",
+        "Field of education": "Business, administration and law",
+        "Value": 217708.60100000002
+    },
+    {
+        "Country": "Canada",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 116226.05099999999
+    },
+    {
+        "Country": "Canada",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 27757.203999999998
+    },
+    {
+        "Country": "Czech Republic",
+        "Field of education": "Business, administration and law",
+        "Value": 42952.0
+    },
+    {
+        "Country": "Czech Republic",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 12704.0
+    },
+    {
+        "Country": "Czech Republic",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 12577.0
+    },
+    {
+        "Country": "Denmark",
+        "Field of education": "Business, administration and law",
+        "Value": 35691.0
+    },
+    {
+        "Country": "Denmark",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 10085.0
+    },
+    {
+        "Country": "Denmark",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 6255.0
+    },
+    {
+        "Country": "Finland",
+        "Field of education": "Business, administration and law",
+        "Value": 39450.0
+    },
+    {
+        "Country": "Finland",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 10855.0
+    },
+    {
+        "Country": "Finland",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 20391.0
+    },
+    {
+        "Country": "France",
+        "Field of education": "Business, administration and law",
+        "Value": 246673.0
+    },
+    {
+        "Country": "France",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 154668.0
+    },
+    {
+        "Country": "France",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 26638.0
+    },
+    {
+        "Country": "Germany",
+        "Field of education": "Business, administration and law",
+        "Value": 452802.0
+    },
+    {
+        "Country": "Germany",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 151989.0
+    },
+    {
+        "Country": "Germany",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 149745.0
+    },
+    {
+        "Country": "Hungary",
+        "Field of education": "Business, administration and law",
+        "Value": 43878.0
+    },
+    {
+        "Country": "Hungary",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 7884.0
+    },
+    {
+        "Country": "Hungary",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 8418.0
+    },
+    {
+        "Country": "Iceland",
+        "Field of education": "Business, administration and law",
+        "Value": 2376.0
+    },
+    {
+        "Country": "Iceland",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 667.0
+    },
+    {
+        "Country": "Iceland",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 989.0
+    },
+    {
+        "Country": "Ireland",
+        "Field of education": "Business, administration and law",
+        "Value": 31009.0
+    },
+    {
+        "Country": "Ireland",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 17041.0
+    },
+    {
+        "Country": "Ireland",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 12374.0
+    },
+    {
+        "Country": "Italy",
+        "Field of education": "Business, administration and law",
+        "Value": 182872.0
+    },
+    {
+        "Country": "Italy",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 97362.0
+    },
+    {
+        "Country": "Italy",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 23379.0
+    },
+    {
+        "Country": "Korea",
+        "Field of education": "Business, administration and law",
+        "Value": 362979.0
+    },
+    {
+        "Country": "Korea",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 168849.0
+    },
+    {
+        "Country": "Korea",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 51681.0
+    },
+    {
+        "Country": "Luxembourg",
+        "Field of education": "Business, administration and law",
+        "Value": 849.0
+    },
+    {
+        "Country": "Luxembourg",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 150.0
+    },
+    {
+        "Country": "Luxembourg",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 164.0
+    },
+    {
+        "Country": "Mexico",
+        "Field of education": "Business, administration and law",
+        "Value": 1217055.0
+    },
+    {
+        "Country": "Mexico",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 125620.0
+    },
+    {
+        "Country": "Mexico",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 78890.0
+    },
+    {
+        "Country": "Netherlands",
+        "Field of education": "Business, administration and law",
+        "Value": 164172.0
+    },
+    {
+        "Country": "Netherlands",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 24009.0
+    },
+    {
+        "Country": "Netherlands",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 21015.0
+    },
+    {
+        "Country": "New Zealand",
+        "Field of education": "Business, administration and law",
+        "Value": 41797.888999999996
+    },
+    {
+        "Country": "New Zealand",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 18309.613999999998
+    },
+    {
+        "Country": "New Zealand",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 11118.628
+    },
+    {
+        "Country": "Norway",
+        "Field of education": "Business, administration and law",
+        "Value": 39669.0
+    },
+    {
+        "Country": "Norway",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 8757.0
+    },
+    {
+        "Country": "Norway",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 8505.0
+    },
+    {
+        "Country": "Poland",
+        "Field of education": "Business, administration and law",
+        "Value": 203640.0
+    },
+    {
+        "Country": "Poland",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 42483.0
+    },
+    {
+        "Country": "Poland",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 61873.0
+    },
+    {
+        "Country": "Portugal",
+        "Field of education": "Business, administration and law",
+        "Value": 53944.0
+    },
+    {
+        "Country": "Portugal",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 12417.0
+    },
+    {
+        "Country": "Portugal",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 4042.0
+    },
+    {
+        "Country": "Slovak Republic",
+        "Field of education": "Business, administration and law",
+        "Value": 17064.0
+    },
+    {
+        "Country": "Slovak Republic",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 5684.0
+    },
+    {
+        "Country": "Slovak Republic",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 4902.0
+    },
+    {
+        "Country": "Spain",
+        "Field of education": "Business, administration and law",
+        "Value": 283116.0
+    },
+    {
+        "Country": "Spain",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 81631.0
+    },
+    {
+        "Country": "Spain",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 43909.0
+    },
+    {
+        "Country": "Sweden",
+        "Field of education": "Business, administration and law",
+        "Value": 30880.0
+    },
+    {
+        "Country": "Sweden",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 15343.0
+    },
+    {
+        "Country": "Sweden",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 11758.0
+    },
+    {
+        "Country": "Switzerland",
+        "Field of education": "Business, administration and law",
+        "Value": 54968.0
+    },
+    {
+        "Country": "Switzerland",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 11707.0
+    },
+    {
+        "Country": "Switzerland",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 7353.0
+    },
+    {
+        "Country": "Turkey",
+        "Field of education": "Business, administration and law",
+        "Value": 1646218.0
+    },
+    {
+        "Country": "Turkey",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 119842.0
+    },
+    {
+        "Country": "Turkey",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 13272.0
+    },
+    {
+        "Country": "United Kingdom",
+        "Field of education": "Business, administration and law",
+        "Value": 277379.584
+    },
+    {
+        "Country": "United Kingdom",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 283662.39
+    },
+    {
+        "Country": "United Kingdom",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 74892.48599999999
+    },
+    {
+        "Country": "United States",
+        "Field of education": "Business, administration and law",
+        "Value": 1653767.274
+    },
+    {
+        "Country": "United States",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 804656.2640000001
+    },
+    {
+        "Country": "United States",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 307498.923
+    },
+    {
+        "Country": "Chile",
+        "Field of education": "Business, administration and law",
+        "Value": 168339.667
+    },
+    {
+        "Country": "Chile",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 18349.5
+    },
+    {
+        "Country": "Chile",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 29004.833
+    },
+    {
+        "Country": "Estonia",
+        "Field of education": "Business, administration and law",
+        "Value": 7832.0
+    },
+    {
+        "Country": "Estonia",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 1705.0
+    },
+    {
+        "Country": "Estonia",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 3025.0
+    },
+    {
+        "Country": "Israel",
+        "Field of education": "Business, administration and law",
+        "Value": 39039.5
+    },
+    {
+        "Country": "Israel",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 15408.5
+    },
+    {
+        "Country": "Israel",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 18030.0
+    },
+    {
+        "Country": "Latvia",
+        "Field of education": "Business, administration and law",
+        "Value": 14577.0
+    },
+    {
+        "Country": "Latvia",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 1396.0
+    },
+    {
+        "Country": "Latvia",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 3164.0
+    },
+    {
+        "Country": "Lithuania",
+        "Field of education": "Business, administration and law",
+        "Value": 29795.0
+    },
+    {
+        "Country": "Lithuania",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 3505.0
+    },
+    {
+        "Country": "Lithuania",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 3938.0
+    },
+    {
+        "Country": "Slovenia",
+        "Field of education": "Business, administration and law",
+        "Value": 7854.0
+    },
+    {
+        "Country": "Slovenia",
+        "Field of education": "Natural sciences, mathematics and statistics",
+        "Value": 2888.0
+    },
+    {
+        "Country": "Slovenia",
+        "Field of education": "Information and Communication Technologies",
+        "Value": 2073.0
+    }
+]
