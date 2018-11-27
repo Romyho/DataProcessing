@@ -125,11 +125,11 @@
               .call(y_axis)
               .style("font-size", "5px")
               .attr('transform', 'translate(40,' + -margin_y + ')')
-              .append("text")
-              .attr("transform", "rotate(-90)")
-              .attr("y", 10)
-              .attr("dy", ".71em")
-              .style("text-anchor", "end")
+          svg.append("g")
+              attr("class", "y title")
+              .append(text)
+              .style("font-size", "5px")
+              .attr('transform', 'translate(40,' + -margin_y + ')')
               .text("# students (x1000)");
 
             svg.append("g")
