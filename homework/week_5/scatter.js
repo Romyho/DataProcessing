@@ -50,16 +50,27 @@ window.onload = function() {
       }
     }
 
+
     function plot(h){
+      // screen margins, height, width and padding
+      margin = {top: 30, right: 260, bottom: 50, left: 70},
+          width = 1300 - margin.left - margin.right,
+          height = 600 - margin.top - margin.bottom,
+          padding = 40;
+
       if (h == 1){
         d3.select("svg").remove();
         d3.select("p").remove();
-        drawScatterplot(timeCon, datapointCon, countryCon);
+        drawScatterplot(timeWom, datapointWom, countryWom);
+        title('women')
       }
       else if (h ==2) {
         d3.select("svg").remove();
         d3.select("p").remove();
-        drawScatterplot(timeWom, datapointWom, countryWom);
+        drawScatterplot(timeCon, datapointCon, countryCon);
+        title('consumer');
+
+
       }
 
     }
@@ -71,6 +82,62 @@ window.onload = function() {
     });
 };
 
+function title(name){
+  if (name == 'women'){
+    d3.select("svg")
+      .append("g")
+      .attr("class", "y title")
+      .append("text")
+      .style("font-size", "12px")
+      .attr('transform', 'translate(20,' + 280 + ')rotate(-90)')
+      .text("Percentage of total researchers (%)");
+
+    d3.select("svg")
+      .append("g")
+      .attr("class", "x title")
+      .append("text")
+      .style("font-size", "12px")
+      .attr('transform', 'translate(700,' + 500 + ')')
+      .text("Time (years)");
+
+    d3.select("svg")
+      .append("g")
+      .attr("class", "title")
+      .append("text")
+      .style("font-size", "20px")
+      .attr('transform', 'translate(70,' + 30 + ')')
+      .text("Scatterplot of women researchers as a percentage of total researchers (headcount)");
+
+   }
+   else if (name == 'consumer') {
+     d3.select("svg")
+     .append("g")
+        .attr("class", "y title")
+        .append("text")
+        .style("font-size", "12px")
+        .attr('transform', 'translate(20,' + 300 + ')rotate(-90)')
+        .text("Consumer confidence index(long-term averge = 100)");
+
+     d3.select("svg")
+     .append("g")
+       .attr("class", "x title")
+       .append("text")
+       .style("font-size", "12px")
+       .attr('transform', 'translate(700,' + 500 + ')')
+       .text("Time (years)");
+
+     d3.select("svg")
+       .append("g")
+       .attr("class", "title")
+       .append("text")
+       .style("font-size", "20px")
+       .attr('transform', 'translate(200,' + 30 + ')')
+       .text("Scatterplot of annual consumer confidence");
+
+
+   }
+}
+
 
  function drawScatterplot(data1, data2, data3){
 
@@ -78,7 +145,7 @@ window.onload = function() {
    margin = {top: 30, right: 260, bottom: 50, left: 70},
        width = 1300 - margin.left - margin.right,
        height = 600 - margin.top - margin.bottom,
-       padding = 40;
+       padding = 60;
 
    // colors for data points showing the data
    const colors = d3.scaleOrdinal()
@@ -92,11 +159,11 @@ window.onload = function() {
      dataset.push([data1[i], data2[i], data3[i]]);
    }
 
-// console.log(data3)
+
    // scale x and y axis
    var xScale = d3.scaleLinear()
 	  .domain([(d3.min(data1)-0.5), d3.max(data1)])
-	  .range([padding, width- padding * 3]);
+	  .range([padding+10, width- padding * 3]);
 
 	 var yScale = d3.scaleLinear()
 			.domain([d3.min(data2)-0.5, d3.max(data2)+0.5])
@@ -140,8 +207,9 @@ window.onload = function() {
 
 		svg.append("g")
 			 .attr("class", "y axis")
-			 .attr("transform", "translate(" + padding + ", 0)")
+			 .attr("transform", "translate(" + (padding+10) + ", 0)")
 			 .call(yAxis);
+
 
     // make legend
     var legend = svg.append("g")
@@ -174,7 +242,7 @@ window.onload = function() {
           .enter()
           .append("text")
           .style("text-anchor", "start")
-          .style("font-size", "8")
+          .style("font-size", "10")
           .style("font-family", "sans-serif")
           .attr("x", width - 37)
           .attr("y", function(d, i){
@@ -184,17 +252,20 @@ window.onload = function() {
             return d
           });
 
+
+
       // add data source below the scatterplot
-          d3.select("body")
-            .append("p")
-            .attr("class", "data-source")
-            .html(function(d) {
-                return "Source: " +
-                    "<a href='http://stats.oecd.org' target='_blank'>" +
-                    "OECD Stats" + "</a><br><br>" +
-                    "By Romy Ho <br><br>"+
-                    " University of Amsterdam";
-            });
+    d3.select("body")
+      .append("p")
+      .attr("class", "data-source")
+      .html(function(d) {
+          return "Source: " +
+              "<a href='http://stats.oecd.org' target='_blank'>" +
+              "OECD Stats" + "</a><br><br>" +
+              "By Romy Ho <br><br>"+
+              "11007303<br><br>"+
+              " University of Amsterdam";
+      });
 
 
  }
