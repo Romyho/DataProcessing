@@ -9,7 +9,7 @@
 * A javascript file, making a scatter plot
 */
 
-var t;
+var update;
 
 window.onload = function() {
   // API links for data
@@ -50,7 +50,7 @@ window.onload = function() {
       }
     }
 
-    function test(h){
+    function plot(h){
       if (h == 1){
         d3.select("svg").remove();
         d3.select("p").remove();
@@ -63,7 +63,7 @@ window.onload = function() {
       }
 
     }
-    t = test;
+    update = plot;
 
   })
   .catch(function(e){
