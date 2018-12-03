@@ -1,3 +1,12 @@
+<!-- scatter.html
+
+ Romy Ho
+11007303
+
+Dataprocessing week 5
+
+A html showing a scatterplot and a dropdown menu
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,10 +18,19 @@
   <title>D3 Scatterplot</title>
   <script src="d3.min.js"></script>
   <script src="scatter.css"></script>
-  <script src="d3-tip.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
 <body>
-
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dataset
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#" onclick="t(1)">Main Science and Technology Indicators</a></li>
+      <li><a href="#" onclick="t(2)">Consumer confidence</a></li>
+    </ul>
+</div>
 
 </body>
 </html>
