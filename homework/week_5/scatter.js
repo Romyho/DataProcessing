@@ -9,7 +9,7 @@
 * A javascript file, making a scatter plot
 */
 
-var update;
+var t;
 
 window.onload = function() {
   // API links for data
@@ -63,7 +63,7 @@ window.onload = function() {
       }
 
     }
-    update = plot;
+    t = plot;
 
   })
   .catch(function(e){
