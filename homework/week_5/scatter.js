@@ -70,8 +70,7 @@ window.onload = function() {
       .attr('transform', 'translate(5,' + 17 + ')')
       .text("Choose a dataset");
 
-
-
+    // after onclick in dropdown menu, change plot for chosen dataset
     function plot(h){
       if (h == 1){
         d3.select("svg").remove();
@@ -94,7 +93,9 @@ window.onload = function() {
     });
 };
 
+// make different titles for different datasets
 function title(name){
+  // make title, axis title
   if (name == 'women'){
     d3.select("svg")
       .append("g")
@@ -130,8 +131,9 @@ function title(name){
 
    }
    else if (name == 'consumer') {
+     // make title, axis title
      d3.select("svg")
-     .append("g")
+        .append("g")
         .attr("class", "y title")
         .append("text")
         .style("font-size", "12px")
@@ -241,11 +243,6 @@ function title(name){
 			 .attr("class", "y axis")
 			 .attr("transform", "translate(" + (padding+10) + ", 0)")
 			 .call(yAxis);
-
-       width = 300
-       height = 100
-
-
 
     // make legend
     var legend = svg.append("g")
