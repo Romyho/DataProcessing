@@ -209,15 +209,12 @@ function title(name){
 
 	 var yAxis = d3.axisLeft().scale(yScale).ticks(10);
 
-<<<<<<< HEAD
-=======
    // create svg element
 	 var svg = d3.select("body")
 		     .append("svg")
 		     .attr("width", width)
 		     .attr("height", height);
 
->>>>>>> 19977b746ed6f20195d0c74246f9e60797e6c883
     // make scatterpoints
 		svg.selectAll("circle")
 		 .data(dataset)
@@ -244,6 +241,11 @@ function title(name){
 			 .attr("class", "y axis")
 			 .attr("transform", "translate(" + (padding+10) + ", 0)")
 			 .call(yAxis);
+
+       width = 300
+       height = 100
+
+
 
     // make legend
     var legend = svg.append("g")
