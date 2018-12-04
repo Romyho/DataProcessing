@@ -9,7 +9,7 @@
 * A javascript file, making a scatter plot
 */
 
-var t;
+var t
 
 window.onload = function() {
   // API links for data
@@ -50,14 +50,29 @@ window.onload = function() {
       }
     }
 
+    // height, width
+  width = 300
+  height = 100
+
+
+    // create svg element
+ 	 var svg = d3.select("body")
+ 					.append("svg")
+ 					.attr("width", width)
+ 					.attr("height", height);
+
+    // title
+    d3.select("svg")
+      .append("g")
+      .attr("class", "title")
+      .append("text")
+      .style("font-size", "20px")
+      .attr('transform', 'translate(5,' + 17 + ')')
+      .text("Choose a dataset");
+
+
 
     function plot(h){
-      // screen margins, height, width and padding
-      margin = {top: 30, right: 260, bottom: 50, left: 70},
-          width = 1300 - margin.left - margin.right,
-          height = 600 - margin.top - margin.bottom,
-          padding = 40;
-
       if (h == 1){
         d3.select("svg").remove();
         d3.select("p").remove();
@@ -69,10 +84,7 @@ window.onload = function() {
         d3.select("p").remove();
         drawScatterplot(timeCon, datapointCon, countryCon);
         title('consumer');
-
-
       }
-
     }
     t = plot;
 
@@ -97,7 +109,7 @@ function title(name){
       .attr("class", "x title")
       .append("text")
       .style("font-size", "12px")
-      .attr('transform', 'translate(700,' + 500 + ')')
+      .attr('transform', 'translate(750,' + 510 + ')')
       .text("Time (years)");
 
     d3.select("svg")
@@ -105,8 +117,16 @@ function title(name){
       .attr("class", "title")
       .append("text")
       .style("font-size", "20px")
-      .attr('transform', 'translate(70,' + 30 + ')')
+      .attr('transform', 'translate(100,' + 30 + ')')
       .text("Scatterplot of women researchers as a percentage of total researchers (headcount)");
+
+    d3.select("svg")
+      .append("g")
+      .attr("class", "title")
+      .append("text")
+      .style("font-size", "12px")
+      .attr('transform', 'translate(3,' + 10 + ')')
+      .text("Change dataset");
 
    }
    else if (name == 'consumer') {
@@ -115,15 +135,15 @@ function title(name){
         .attr("class", "y title")
         .append("text")
         .style("font-size", "12px")
-        .attr('transform', 'translate(20,' + 300 + ')rotate(-90)')
-        .text("Consumer confidence index(long-term averge = 100)");
+        .attr('transform', 'translate(10,' + 350 + ')rotate(-90)')
+        .text("Consumer confidence index (long-term averge = 100)");
 
      d3.select("svg")
      .append("g")
        .attr("class", "x title")
        .append("text")
        .style("font-size", "12px")
-       .attr('transform', 'translate(700,' + 500 + ')')
+       .attr('transform', 'translate(750,' + 510 + ')')
        .text("Time (years)");
 
      d3.select("svg")
@@ -131,8 +151,16 @@ function title(name){
        .attr("class", "title")
        .append("text")
        .style("font-size", "20px")
-       .attr('transform', 'translate(200,' + 30 + ')')
+       .attr('transform', 'translate(230,' + 30 + ')')
        .text("Scatterplot of annual consumer confidence");
+
+     d3.select("svg")
+       .append("g")
+       .attr("class", "title")
+       .append("text")
+       .style("font-size", "12px")
+       .attr('transform', 'translate(3,' + 10 + ')')
+       .text("Change dataset");
 
 
    }
@@ -141,11 +169,6 @@ function title(name){
 
  function drawScatterplot(data1, data2, data3){
 
-   // screen margins, height, width and padding
-   margin = {top: 30, right: 260, bottom: 50, left: 70},
-       width = 1300 - margin.left - margin.right,
-       height = 600 - margin.top - margin.bottom,
-       padding = 60;
 
    // colors for data points showing the data
    const colors = d3.scaleOrdinal()
@@ -159,6 +182,17 @@ function title(name){
      dataset.push([data1[i], data2[i], data3[i]]);
    }
 
+   // screen margins, height, width and padding
+   margin = {top: 30, right: 260, bottom: 50, left: 70},
+       width = 1300 - margin.left - margin.right,
+       height = 600 - margin.top - margin.bottom,
+       padding = 40;
+
+   // create svg element
+  var svg = d3.select("body")
+         .append("svg")
+         .attr("width", width)
+         .attr("height", height);
 
    // scale x and y axis
    var xScale = d3.scaleLinear()
@@ -174,12 +208,6 @@ function title(name){
 	 var xAxis = d3.axisBottom().scale(xScale).ticks(10);
 
 	 var yAxis = d3.axisLeft().scale(yScale).ticks(10);
-
-   // create svg element
-	 var svg = d3.select("body")
-					.append("svg")
-					.attr("width", width)
-					.attr("height", height);
 
     // make scatterpoints
 		svg.selectAll("circle")
