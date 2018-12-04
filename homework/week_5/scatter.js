@@ -153,7 +153,7 @@ function title(name){
                     .range(["#7fc97f", "#beaed4", "#fdc086", "#ffff99", "#386cb0","#f0027f"]);
 
    // make coordinates of the data
-   data = [data1, data2]
+   data = [data1, data2];
    var dataset = [];
    for (i in data1){
      dataset.push([data1[i], data2[i], data3[i]]);
@@ -212,8 +212,8 @@ function title(name){
     var legend = svg.append("g")
                     .attr("class", "legend")
                     .attr("height", 30)
-                    .attr("width", 90)
-                    .attr('transform', 'translate(-20,40)');
+                    .attr("width", 70)
+                    .attr('transform', 'translate(-20,50)');
 
     // make an array of unique values
     var text =  Array.from(new Set(data3));
