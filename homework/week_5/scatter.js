@@ -212,8 +212,8 @@ function title(name){
     var legend = svg.append("g")
                     .attr("class", "legend")
                     .attr("height", 30)
-                    .attr("width", 70)
-                    .attr('transform', 'translate(-20,50)');
+                    .attr("width", 90)
+                    .attr('transform', 'translate(-20,40)');
 
     // make an array of unique values
     var text =  Array.from(new Set(data3));
@@ -239,7 +239,7 @@ function title(name){
           .enter()
           .append("text")
           .style("text-anchor", "start")
-          .style("font-size", "10")
+          .style("font-size", "8")
           .style("font-family", "sans-serif")
           .attr("x", width - 35)
           .attr("y", function(d, i){
