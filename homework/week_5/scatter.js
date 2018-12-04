@@ -209,19 +209,28 @@ function title(name){
 
 	 var yAxis = d3.axisLeft().scale(yScale).ticks(10);
 
+<<<<<<< HEAD
+=======
+   // create svg element
+	 var svg = d3.select("body")
+		     .append("svg")
+		     .attr("width", width)
+		     .attr("height", height);
+
+>>>>>>> 19977b746ed6f20195d0c74246f9e60797e6c883
     // make scatterpoints
 		svg.selectAll("circle")
-			 .data(dataset)
-			 .enter()
-			 .append("circle")
-			 .attr("cx", function(d) {
-			  	return xScale(d[0]);
-			  })
-			 .attr("cy", function(d) {
-			 	 return yScale(d[1]);
-			  })
-			 .attr("r", 5)
-       .style("fill", function(d){
+		 .data(dataset)
+		 .enter()
+		 .append("circle")
+		 .attr("cx", function(d) {
+			return xScale(d[0]);
+		  })
+		 .attr("cy", function(d) {
+			 return yScale(d[1]);
+		  })
+		 .attr("r", 5)
+       		.style("fill", function(d){
          return colors(d[2])
         });
 
@@ -241,7 +250,7 @@ function title(name){
                     .attr("class", "legend")
                     .attr("height", 30)
                     .attr("width", 90)
-                    .attr('transform', 'translate(-20,40)');
+                    .attr('transform', 'translate(-10,40)');
 
     // make an array of unique values
     var text =  Array.from(new Set(data3));
