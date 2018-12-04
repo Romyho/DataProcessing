@@ -213,7 +213,7 @@ function title(name){
                     .attr("class", "legend")
                     .attr("height", 30)
                     .attr("width", 90)
-                    .attr('transform', 'translate(-20,40)');
+                    .attr('transform', 'translate(-10,40)');
 
     // make an array of unique values
     var text =  Array.from(new Set(data3));
