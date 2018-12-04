@@ -239,7 +239,7 @@ function title(name){
           .enter()
           .append("text")
           .style("text-anchor", "start")
-          .style("font-size", "8")
+          .style("font-size", "8px")
           .style("font-family", "sans-serif")
           .attr("x", width - 35)
           .attr("y", function(d, i){
