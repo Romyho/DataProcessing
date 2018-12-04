@@ -177,23 +177,23 @@ function title(name){
 
    // create svg element
 	 var svg = d3.select("body")
-					.append("svg")
-					.attr("width", width)
-					.attr("height", height);
+		     .append("svg")
+		     .attr("width", width)
+		     .attr("height", height);
 
     // make scatterpoints
 		svg.selectAll("circle")
-			 .data(dataset)
-			 .enter()
-			 .append("circle")
-			 .attr("cx", function(d) {
-			  	return xScale(d[0]);
-			  })
-			 .attr("cy", function(d) {
-			 	 return yScale(d[1]);
-			  })
-			 .attr("r", 5)
-       .style("fill", function(d){
+		 .data(dataset)
+		 .enter()
+		 .append("circle")
+		 .attr("cx", function(d) {
+			return xScale(d[0]);
+		  })
+		 .attr("cy", function(d) {
+			 return yScale(d[1]);
+		  })
+		 .attr("r", 5)
+       		.style("fill", function(d){
          return colors(d[2])
         });
 
