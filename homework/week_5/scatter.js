@@ -70,7 +70,7 @@ window.onload = function() {
       .attr('transform', 'translate(5,' + 17 + ')')
       .text("Choose a dataset");
 
-    // after onclick in dropdown menu, change plot for chosen dataset
+    // after onclick in dropdown menu, change plot for chosen dataset.
     function plot(h){
       if (h == 1){
         d3.select("svg").remove();
