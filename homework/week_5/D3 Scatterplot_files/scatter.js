@@ -209,25 +209,19 @@ function title(name){
 
 	 var yAxis = d3.axisLeft().scale(yScale).ticks(10);
 
-   // create svg element
-	 var svg = d3.select("body")
-		     .append("svg")
-		     .attr("width", width)
-		     .attr("height", height);
-
     // make scatterpoints
 		svg.selectAll("circle")
-		 .data(dataset)
-		 .enter()
-		 .append("circle")
-		 .attr("cx", function(d) {
-			return xScale(d[0]);
-		  })
-		 .attr("cy", function(d) {
-			 return yScale(d[1]);
-		  })
-		 .attr("r", 5)
-       		.style("fill", function(d){
+			 .data(dataset)
+			 .enter()
+			 .append("circle")
+			 .attr("cx", function(d) {
+			  	return xScale(d[0]);
+			  })
+			 .attr("cy", function(d) {
+			 	 return yScale(d[1]);
+			  })
+			 .attr("r", 5)
+       .style("fill", function(d){
          return colors(d[2])
         });
 
@@ -242,17 +236,12 @@ function title(name){
 			 .attr("transform", "translate(" + (padding+10) + ", 0)")
 			 .call(yAxis);
 
-       width = 300
-       height = 100
-
-
-
     // make legend
     var legend = svg.append("g")
                     .attr("class", "legend")
                     .attr("height", 30)
                     .attr("width", 90)
-                    .attr('transform', 'translate(-35,40)');
+                    .attr('transform', 'translate(-20,40)');
 
     // make an array of unique values
     var text =  Array.from(new Set(data3));
