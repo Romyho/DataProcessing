@@ -197,8 +197,6 @@ function title(name){
          return colors(d[2])
         });
 
-
-
 		// make x axis and y axis
 		svg.append("g")
   		 .attr("class", "x axis")
@@ -210,12 +208,11 @@ function title(name){
 			 .attr("transform", "translate(" + (padding+10) + ", 0)")
 			 .call(yAxis);
 
-
     // make legend
     var legend = svg.append("g")
                     .attr("class", "legend")
                     .attr("height", 30)
-                    .attr("width", 70)
+                    .attr("width", 90)
                     .attr('transform', 'translate(-20,50)');
 
     // make an array of unique values
@@ -252,9 +249,7 @@ function title(name){
             return d
           });
 
-
-
-      // add data source below the scatterplot
+    // add data source below the scatterplot
     d3.select("body")
       .append("p")
       .attr("class", "data-source")
@@ -266,7 +261,6 @@ function title(name){
               "11007303<br><br>"+
               " University of Amsterdam";
       });
-
 
  }
 
@@ -292,7 +286,8 @@ window.onclick = function(event) {
 }
 
 
-
+// from: https://data.mprog.nl/course/10%20Homework/100%20D3%20Scatterplot/scripts/transformResponseV1.js
+// transforms data from API, to usefull data in javascript
 function transformResponse(data){
 
     // access data property of the response
