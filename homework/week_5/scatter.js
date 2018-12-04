@@ -190,12 +190,6 @@ function title(name){
        height = 600 - margin.top - margin.bottom,
        padding = 40;
 
-   // create svg element
-  var svg = d3.select("body")
-         .append("svg")
-         .attr("width", width)
-         .attr("height", height);
-
    // scale x and y axis
    var xScale = d3.scaleLinear()
 	  .domain([(d3.min(data1)-0.5), d3.max(data1)])
