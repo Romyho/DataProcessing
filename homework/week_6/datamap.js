@@ -7,6 +7,7 @@
 * Data processing week 6
 *
 * A javascript file, making a linked view visualization
+* With late day wildcard 
 */
 var pad = []
 window.onload = function() {
