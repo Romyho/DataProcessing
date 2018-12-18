@@ -1,11 +1,11 @@
-<!-- scatter.html
+<!-- index.html
 
  Romy Ho
 11007303
 
-Dataprocessing week 5
+Dataprocessing week 6
 
-A html showing a scatterplot and a dropdown menu
+A html with linked views visualization
 -->
 <!DOCTYPE html>
 <html>
@@ -15,12 +15,92 @@ A html showing a scatterplot and a dropdown menu
   <meta name="description" content="D3 Scatterplot">
   <meta name="author" content="Romy Ho">
 
-  <title>D3 Scatterplot</title>
-  <script src="https://romyho.github.io/DataProcessing/homework/week_6/linkedView.js"></script>
+  <title>D3 linked View</title>
+  <script src="https://romyho.github.io/DataProcessing/homework/week_6/datamap.js"></script>
   <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+       .active { fill: blue !important;}
+  </style>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="http://d3js.org/queue.v1.min.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+  <script src="https://romyho.github.io/DataProcessing/homework/week_6/d3-tip.js"></script>
+  <div id="container" style="position: relative; width: 500px; height: 140px;"></div>
+  <style>
+
+  .names {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+  }
+
+    /* Tooltip CSS */
+    .d3-tip {
+    line-height: 1.5;
+    font-weight: 400;
+    font-family:"avenir next", Arial, sans-serif;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFA500;
+    border-radius: 1px;
+    pointer-events: none;
+    }
+
+    /* Creates a small triangle extender for the tooltip */
+    .d3-tip:after {
+      box-sizing: border-box;
+      display: inline;
+      font-size: 8px;
+      width: 100%;
+      line-height: 1.5;
+      color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      pointer-events: none;
+
+    }
+
+    /* Northward tooltips */
+    .d3-tip.n:after {
+      content: "\25BC";
+      margin: -1px 0 0 0;
+      top: 100%;
+      left: 0;
+      text-align: center;
+    }
+
+    /* Eastward tooltips */
+    .d3-tip.e:after {
+      content: "\25C0";
+      margin: -4px 0 0 0;
+      top: 50%;
+      left: -8px;
+    }
+
+    /* Southward tooltips */
+    .d3-tip.s:after {
+      content: "\25B2";
+      margin: 0 0 1px 0;
+      top: -8px;
+      left: 0;
+      text-align: center;
+    }
+
+    /* Westward tooltips */
+    .d3-tip.w:after {
+      content: "\25B6";
+      margin: -4px 0 0 -1px;
+      top: 50%;
+      left: 100%;
+    }
+
+.line-chart
+   {
+       border: 1px solid lightgray;
+   }
+
+</style>
   </head>
 <body>
 
@@ -33,142 +113,6 @@ A html showing a scatterplot and a dropdown menu
 <title></title>
 </head>
 <body>
-
-
-<canvas id="canvas" width="1200" height="650"></canvas>
-<!-- <script>
-// Open Json file
-
-var url = "https://romyho.github.io/DataProcessing/homework/week_3/MEI_spain_89-17.json"
-var txtFile = new XMLHttpRequest();
-txtFile.open('GET', url, true)
-txtFile.onload = function () {
-// txtFile.onreadystatechange = function() {
-    if (txtFile.readyState === 4 && txtFile.status == 200) {
-        var data = JSON.parse(txtFile.responseText);
-        // Calculate domain of the values
-        var max_value = 0;
-        var min_value = 0;
-        for(var i in data){
-
-          if(data[i].Value > max_value){
-          max_value = data[i].Value
-          }
-          if(data[i].Value < min_value){
-            min_value = data[i].Value
-          }
-        }
-        dom_value = [min_value, max_value];
-
-        max_length = data.length
-        min_datum = data[0].TIME
-        max_datum = data[(max_length-1)].TIME
-        dom_datum = [min_datum, max_datum];
-
-        // Set pixel range
-        range_x = [200, 1000]
-        range_y = [200, 600]
-
-        // Write a function for y and x pixels
-        createT_y = createTransform(dom_value, range_y);
-        createT_x = createTransform(dom_datum, range_x);
-
-        // Draw line and axis
-        ctx.setLineDash([]);
-        var y_as_values = [16,14,12,10,8,6,4,2,0,-2]
-        for (var i = 0; i<(max_length-1); i++) {
-          ctx.moveTo(createT_x(data[i].TIME), (620-createT_y(data[i].Value)));
-          ctx.lineTo(createT_x(data[(i+1)].TIME), (620-createT_y(data[(i+1)].Value)));
-          var time = data[(i+1)].TIME
-          var time_x = createT_x(time)
-          ctx.font = "10px Arial";
-          ctx.textAlign = "center";
-          ctx.fillText(time, time_x, 490);
-          ctx.moveTo(time_x,482)
-          ctx.lineTo(time_x,473)
-
-          }
-        for (var j = 0; j<(y_as_values.length); j++){
-          var y = y_as_values[j]
-          var yy = (632-createT_y(y))
-          ctx.fillText(y, 171, yy)
-          if (y > 0){
-            ctx.moveTo(178,yy)
-            ctx.lineTo(189,yy)
-          }
-        }
-
-        // Make titles
-        ctx.font = "10px Arial";
-        var begin_time = data[0].TIME
-        var begin_x = createT_x(begin_time)
-        ctx.fillText(begin_time, begin_x, 490);
-        ctx.moveTo(begin_x,482)
-        ctx.lineTo(begin_x,473)
-
-        ctx.font = "20px Arial";
-        ctx.fillText("Years", 600, 520)
-
-        ctx.moveTo(180,0);
-        ctx.lineTo(180,480);
-
-        ctx.moveTo(180,480);
-        ctx.lineTo(1020,480);
-        ctx.stroke();
-
-        // draw line for y=0
-        ctx.setLineDash([5, 5]);
-        ctx.moveTo(180, (625-createT_y(0)));
-        ctx.lineTo(1020, (625-createT_y(0)));
-        ctx.stroke()
-
-        // yaxis title
-        ctx.font = "20px Arial";
-        ctx.rotate(-90 * Math.PI / 180);
-        ctx.fillText("Interest", -220, 120)
-      }
-    }
-txtFile.send(null); -->
-// function createTransform(domain, range){
-// 	// domain is a two-element array of the data bounds [domain_min, domain_max]
-// 	// range is a two-element array of the screen bounds [range_min, range_max]
-// 	// this gives you two equations to solve:
-// 	// range_min = alpha * domain_min + beta
-// 	// range_max = alpha * domain_max + beta
-//  		// a solution would be:
-//
-//     var domain_min = domain[0]
-//     var domain_max = domain[1]
-//     var range_min = range[0]
-//     var range_max = range[1]
-//
-//     // formulas to calculate the alpha and the beta
-//    	var alpha = (range_max - range_min) / (domain_max - domain_min)
-//     var beta = range_max - alpha * domain_max
-//
-//     // returns the function for the linear transformation (y= a * x + b)
-//     return function(x){
-//       return alpha * x + beta;
-//     }
-// }
-
-// Name, Student Number, assignment title, graph title
-// var canvas = document.getElementById('canvas');
-// var ctx = canvas.getContext('2d');
-// ctx.font = "30px Arial";
-// ctx.textAlign = "center";
-// ctx.fillText("Annual Interest Spain 1989-2017 ", 700, 30);
-// ctx.font = "18px Arial";
-// ctx.fillText("Romy Ho", 82,16)
-// ctx.fillText("11007303",82,34)
-// ctx.fillText("Assignment week 6:Linked Views", 150, 600)
-//
-
-<!-- </script> -->
-
-<p>OECD (2018), Monetary and Financial Statistics (database), (accessed on
-11 dec 2018).</p>
-<a href="https://stats.oecd.org/index.aspx?r=794285#">OECD.Stat</a>
 
 
 </body>

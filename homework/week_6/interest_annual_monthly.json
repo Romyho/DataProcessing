@@ -1,0 +1,2497 @@
+[
+    {
+        "Country": "Australia",
+        "Time": "2017",
+        "Value": 2.639167
+    },
+    {
+        "Country": "Australia",
+        "Time": "Jan-2017",
+        "Value": 2.73
+    },
+    {
+        "Country": "Australia",
+        "Time": "Feb-2017",
+        "Value": 2.75
+    },
+    {
+        "Country": "Australia",
+        "Time": "Mar-2017",
+        "Value": 2.81
+    },
+    {
+        "Country": "Australia",
+        "Time": "Apr-2017",
+        "Value": 2.56
+    },
+    {
+        "Country": "Australia",
+        "Time": "May-2017",
+        "Value": 2.54
+    },
+    {
+        "Country": "Australia",
+        "Time": "Jun-2017",
+        "Value": 2.41
+    },
+    {
+        "Country": "Australia",
+        "Time": "Jul-2017",
+        "Value": 2.64
+    },
+    {
+        "Country": "Australia",
+        "Time": "Aug-2017",
+        "Value": 2.6
+    },
+    {
+        "Country": "Australia",
+        "Time": "Sep-2017",
+        "Value": 2.7
+    },
+    {
+        "Country": "Australia",
+        "Time": "Oct-2017",
+        "Value": 2.78
+    },
+    {
+        "Country": "Australia",
+        "Time": "Nov-2017",
+        "Value": 2.57
+    },
+    {
+        "Country": "Australia",
+        "Time": "Dec-2017",
+        "Value": 2.58
+    },
+    {
+        "Country": "Austria",
+        "Time": "2017",
+        "Value": 0.5832649999999999
+    },
+    {
+        "Country": "Austria",
+        "Time": "Jan-2017",
+        "Value": 0.57045
+    },
+    {
+        "Country": "Austria",
+        "Time": "Feb-2017",
+        "Value": 0.58985
+    },
+    {
+        "Country": "Austria",
+        "Time": "Mar-2017",
+        "Value": 0.59235
+    },
+    {
+        "Country": "Austria",
+        "Time": "Apr-2017",
+        "Value": 0.4903
+    },
+    {
+        "Country": "Austria",
+        "Time": "May-2017",
+        "Value": 0.6517
+    },
+    {
+        "Country": "Austria",
+        "Time": "Jun-2017",
+        "Value": 0.5546800000000001
+    },
+    {
+        "Country": "Austria",
+        "Time": "Jul-2017",
+        "Value": 0.72924
+    },
+    {
+        "Country": "Austria",
+        "Time": "Aug-2017",
+        "Value": 0.60617
+    },
+    {
+        "Country": "Austria",
+        "Time": "Sep-2017",
+        "Value": 0.5911
+    },
+    {
+        "Country": "Austria",
+        "Time": "Oct-2017",
+        "Value": 0.60618
+    },
+    {
+        "Country": "Austria",
+        "Time": "Nov-2017",
+        "Value": 0.51445
+    },
+    {
+        "Country": "Austria",
+        "Time": "Dec-2017",
+        "Value": 0.50271
+    },
+    {
+        "Country": "Belgium",
+        "Time": "2017",
+        "Value": 0.7225
+    },
+    {
+        "Country": "Belgium",
+        "Time": "Jan-2017",
+        "Value": 0.7
+    },
+    {
+        "Country": "Belgium",
+        "Time": "Feb-2017",
+        "Value": 0.87
+    },
+    {
+        "Country": "Belgium",
+        "Time": "Mar-2017",
+        "Value": 0.87
+    },
+    {
+        "Country": "Belgium",
+        "Time": "Apr-2017",
+        "Value": 0.78
+    },
+    {
+        "Country": "Belgium",
+        "Time": "May-2017",
+        "Value": 0.77
+    },
+    {
+        "Country": "Belgium",
+        "Time": "Jun-2017",
+        "Value": 0.62
+    },
+    {
+        "Country": "Belgium",
+        "Time": "Jul-2017",
+        "Value": 0.83
+    },
+    {
+        "Country": "Belgium",
+        "Time": "Aug-2017",
+        "Value": 0.73
+    },
+    {
+        "Country": "Belgium",
+        "Time": "Sep-2017",
+        "Value": 0.7
+    },
+    {
+        "Country": "Belgium",
+        "Time": "Oct-2017",
+        "Value": 0.69
+    },
+    {
+        "Country": "Belgium",
+        "Time": "Nov-2017",
+        "Value": 0.58
+    },
+    {
+        "Country": "Belgium",
+        "Time": "Dec-2017",
+        "Value": 0.53
+    },
+    {
+        "Country": "Canada",
+        "Time": "2017",
+        "Value": 1.783652
+    },
+    {
+        "Country": "Canada",
+        "Time": "Jan-2017",
+        "Value": 1.7223810000000002
+    },
+    {
+        "Country": "Canada",
+        "Time": "Feb-2017",
+        "Value": 1.702105
+    },
+    {
+        "Country": "Canada",
+        "Time": "Mar-2017",
+        "Value": 1.714348
+    },
+    {
+        "Country": "Canada",
+        "Time": "Apr-2017",
+        "Value": 1.523158
+    },
+    {
+        "Country": "Canada",
+        "Time": "May-2017",
+        "Value": 1.513182
+    },
+    {
+        "Country": "Canada",
+        "Time": "Jun-2017",
+        "Value": 1.5027270000000001
+    },
+    {
+        "Country": "Canada",
+        "Time": "Jul-2017",
+        "Value": 1.9080000000000001
+    },
+    {
+        "Country": "Canada",
+        "Time": "Aug-2017",
+        "Value": 1.883636
+    },
+    {
+        "Country": "Canada",
+        "Time": "Sep-2017",
+        "Value": 2.0495
+    },
+    {
+        "Country": "Canada",
+        "Time": "Oct-2017",
+        "Value": 2.050952
+    },
+    {
+        "Country": "Canada",
+        "Time": "Nov-2017",
+        "Value": 1.9185709999999998
+    },
+    {
+        "Country": "Canada",
+        "Time": "Dec-2017",
+        "Value": 1.9152630000000002
+    },
+    {
+        "Country": "Czech Republic",
+        "Time": "2017",
+        "Value": 0.9808334000000001
+    },
+    {
+        "Country": "Czech Republic",
+        "Time": "Jan-2017",
+        "Value": 0.47
+    },
+    {
+        "Country": "Czech Republic",
+        "Time": "Feb-2017",
+        "Value": 0.63
+    },
+    {
+        "Country": "Czech Republic",
+        "Time": "Mar-2017",
+        "Value": 0.87
+    },
+    {
+        "Country": "Czech Republic",
+        "Time": "Apr-2017",
+        "Value": 0.96
+    },
+    {
+        "Country": "Czech Republic",
+        "Time": "May-2017",
+        "Value": 0.74
+    },
+    {
+        "Country": "Czech Republic",
+        "Time": "Jun-2017",
+        "Value": 0.77
+    },
+    {
+        "Country": "Czech Republic",
+        "Time": "Jul-2017",
+        "Value": 0.9
+    },
+    {
+        "Country": "Czech Republic",
+        "Time": "Aug-2017",
+        "Value": 0.83
+    },
+    {
+        "Country": "Czech Republic",
+        "Time": "Sep-2017",
+        "Value": 0.97
+    },
+    {
+        "Country": "Czech Republic",
+        "Time": "Oct-2017",
+        "Value": 1.45
+    },
+    {
+        "Country": "Czech Republic",
+        "Time": "Nov-2017",
+        "Value": 1.68
+    },
+    {
+        "Country": "Czech Republic",
+        "Time": "Dec-2017",
+        "Value": 1.5
+    },
+    {
+        "Country": "Denmark",
+        "Time": "2017",
+        "Value": 0.47666670000000005
+    },
+    {
+        "Country": "Denmark",
+        "Time": "Jan-2017",
+        "Value": 0.37
+    },
+    {
+        "Country": "Denmark",
+        "Time": "Feb-2017",
+        "Value": 0.33
+    },
+    {
+        "Country": "Denmark",
+        "Time": "Mar-2017",
+        "Value": 0.19
+    },
+    {
+        "Country": "Denmark",
+        "Time": "Apr-2017",
+        "Value": 0.55
+    },
+    {
+        "Country": "Denmark",
+        "Time": "May-2017",
+        "Value": 0.64
+    },
+    {
+        "Country": "Denmark",
+        "Time": "Jun-2017",
+        "Value": 0.53
+    },
+    {
+        "Country": "Denmark",
+        "Time": "Jul-2017",
+        "Value": 0.67
+    },
+    {
+        "Country": "Denmark",
+        "Time": "Aug-2017",
+        "Value": 0.55
+    },
+    {
+        "Country": "Denmark",
+        "Time": "Sep-2017",
+        "Value": 0.51
+    },
+    {
+        "Country": "Denmark",
+        "Time": "Oct-2017",
+        "Value": 0.53
+    },
+    {
+        "Country": "Denmark",
+        "Time": "Nov-2017",
+        "Value": 0.44
+    },
+    {
+        "Country": "Denmark",
+        "Time": "Dec-2017",
+        "Value": 0.41
+    },
+    {
+        "Country": "Finland",
+        "Time": "2017",
+        "Value": 0.5466667
+    },
+    {
+        "Country": "Finland",
+        "Time": "Jan-2017",
+        "Value": 0.5
+    },
+    {
+        "Country": "Finland",
+        "Time": "Feb-2017",
+        "Value": 0.52
+    },
+    {
+        "Country": "Finland",
+        "Time": "Mar-2017",
+        "Value": 0.51
+    },
+    {
+        "Country": "Finland",
+        "Time": "Apr-2017",
+        "Value": 0.38
+    },
+    {
+        "Country": "Finland",
+        "Time": "May-2017",
+        "Value": 0.49
+    },
+    {
+        "Country": "Finland",
+        "Time": "Jun-2017",
+        "Value": 0.56
+    },
+    {
+        "Country": "Finland",
+        "Time": "Jul-2017",
+        "Value": 0.76
+    },
+    {
+        "Country": "Finland",
+        "Time": "Aug-2017",
+        "Value": 0.65
+    },
+    {
+        "Country": "Finland",
+        "Time": "Sep-2017",
+        "Value": 0.58
+    },
+    {
+        "Country": "Finland",
+        "Time": "Oct-2017",
+        "Value": 0.59
+    },
+    {
+        "Country": "Finland",
+        "Time": "Nov-2017",
+        "Value": 0.52
+    },
+    {
+        "Country": "Finland",
+        "Time": "Dec-2017",
+        "Value": 0.5
+    },
+    {
+        "Country": "France",
+        "Time": "2017",
+        "Value": 0.8105078
+    },
+    {
+        "Country": "France",
+        "Time": "Jan-2017",
+        "Value": 0.8630909
+    },
+    {
+        "Country": "France",
+        "Time": "Feb-2017",
+        "Value": 1.0307
+    },
+    {
+        "Country": "France",
+        "Time": "Mar-2017",
+        "Value": 1.021609
+    },
+    {
+        "Country": "France",
+        "Time": "Apr-2017",
+        "Value": 0.8904706
+    },
+    {
+        "Country": "France",
+        "Time": "May-2017",
+        "Value": 0.8056667
+    },
+    {
+        "Country": "France",
+        "Time": "Jun-2017",
+        "Value": 0.6640909
+    },
+    {
+        "Country": "France",
+        "Time": "Jul-2017",
+        "Value": 0.8358948
+    },
+    {
+        "Country": "France",
+        "Time": "Aug-2017",
+        "Value": 0.7145714
+    },
+    {
+        "Country": "France",
+        "Time": "Sep-2017",
+        "Value": 0.7
+    },
+    {
+        "Country": "France",
+        "Time": "Oct-2017",
+        "Value": 0.81
+    },
+    {
+        "Country": "France",
+        "Time": "Nov-2017",
+        "Value": 0.72
+    },
+    {
+        "Country": "France",
+        "Time": "Dec-2017",
+        "Value": 0.67
+    },
+    {
+        "Country": "Germany",
+        "Time": "2017",
+        "Value": 0.3175
+    },
+    {
+        "Country": "Germany",
+        "Time": "Jan-2017",
+        "Value": 0.25
+    },
+    {
+        "Country": "Germany",
+        "Time": "Feb-2017",
+        "Value": 0.26
+    },
+    {
+        "Country": "Germany",
+        "Time": "Mar-2017",
+        "Value": 0.35
+    },
+    {
+        "Country": "Germany",
+        "Time": "Apr-2017",
+        "Value": 0.22
+    },
+    {
+        "Country": "Germany",
+        "Time": "May-2017",
+        "Value": 0.34
+    },
+    {
+        "Country": "Germany",
+        "Time": "Jun-2017",
+        "Value": 0.25
+    },
+    {
+        "Country": "Germany",
+        "Time": "Jul-2017",
+        "Value": 0.46
+    },
+    {
+        "Country": "Germany",
+        "Time": "Aug-2017",
+        "Value": 0.35
+    },
+    {
+        "Country": "Germany",
+        "Time": "Sep-2017",
+        "Value": 0.35
+    },
+    {
+        "Country": "Germany",
+        "Time": "Oct-2017",
+        "Value": 0.37
+    },
+    {
+        "Country": "Germany",
+        "Time": "Nov-2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Germany",
+        "Time": "Dec-2017",
+        "Value": 0.3
+    },
+    {
+        "Country": "Greece",
+        "Time": "2017",
+        "Value": 5.978333
+    },
+    {
+        "Country": "Greece",
+        "Time": "Jan-2017",
+        "Value": 7.04
+    },
+    {
+        "Country": "Greece",
+        "Time": "Feb-2017",
+        "Value": 7.52
+    },
+    {
+        "Country": "Greece",
+        "Time": "Mar-2017",
+        "Value": 7.17
+    },
+    {
+        "Country": "Greece",
+        "Time": "Apr-2017",
+        "Value": 6.7
+    },
+    {
+        "Country": "Greece",
+        "Time": "May-2017",
+        "Value": 5.86
+    },
+    {
+        "Country": "Greece",
+        "Time": "Jun-2017",
+        "Value": 5.76
+    },
+    {
+        "Country": "Greece",
+        "Time": "Jul-2017",
+        "Value": 5.33
+    },
+    {
+        "Country": "Greece",
+        "Time": "Aug-2017",
+        "Value": 5.55
+    },
+    {
+        "Country": "Greece",
+        "Time": "Sep-2017",
+        "Value": 5.56
+    },
+    {
+        "Country": "Greece",
+        "Time": "Oct-2017",
+        "Value": 5.59
+    },
+    {
+        "Country": "Greece",
+        "Time": "Nov-2017",
+        "Value": 5.22
+    },
+    {
+        "Country": "Greece",
+        "Time": "Dec-2017",
+        "Value": 4.44
+    },
+    {
+        "Country": "Hungary",
+        "Time": "2017",
+        "Value": 2.9625
+    },
+    {
+        "Country": "Hungary",
+        "Time": "Jan-2017",
+        "Value": 3.4
+    },
+    {
+        "Country": "Hungary",
+        "Time": "Feb-2017",
+        "Value": 3.52
+    },
+    {
+        "Country": "Hungary",
+        "Time": "Mar-2017",
+        "Value": 3.48
+    },
+    {
+        "Country": "Hungary",
+        "Time": "Apr-2017",
+        "Value": 3.28
+    },
+    {
+        "Country": "Hungary",
+        "Time": "May-2017",
+        "Value": 3.1
+    },
+    {
+        "Country": "Hungary",
+        "Time": "Jun-2017",
+        "Value": 2.99
+    },
+    {
+        "Country": "Hungary",
+        "Time": "Jul-2017",
+        "Value": 3.1
+    },
+    {
+        "Country": "Hungary",
+        "Time": "Aug-2017",
+        "Value": 3.05
+    },
+    {
+        "Country": "Hungary",
+        "Time": "Sep-2017",
+        "Value": 2.76
+    },
+    {
+        "Country": "Hungary",
+        "Time": "Oct-2017",
+        "Value": 2.57
+    },
+    {
+        "Country": "Hungary",
+        "Time": "Nov-2017",
+        "Value": 2.23
+    },
+    {
+        "Country": "Hungary",
+        "Time": "Dec-2017",
+        "Value": 2.07
+    },
+    {
+        "Country": "Iceland",
+        "Time": "2017",
+        "Value": 4.858333
+    },
+    {
+        "Country": "Iceland",
+        "Time": "Jan-2017",
+        "Value": 5.21
+    },
+    {
+        "Country": "Iceland",
+        "Time": "Feb-2017",
+        "Value": 4.91
+    },
+    {
+        "Country": "Iceland",
+        "Time": "Mar-2017",
+        "Value": 4.87
+    },
+    {
+        "Country": "Iceland",
+        "Time": "Apr-2017",
+        "Value": 4.89
+    },
+    {
+        "Country": "Iceland",
+        "Time": "May-2017",
+        "Value": 4.65
+    },
+    {
+        "Country": "Iceland",
+        "Time": "Jun-2017",
+        "Value": 4.63
+    },
+    {
+        "Country": "Iceland",
+        "Time": "Jul-2017",
+        "Value": 4.74
+    },
+    {
+        "Country": "Iceland",
+        "Time": "Aug-2017",
+        "Value": 4.88
+    },
+    {
+        "Country": "Iceland",
+        "Time": "Sep-2017",
+        "Value": 5.14
+    },
+    {
+        "Country": "Iceland",
+        "Time": "Oct-2017",
+        "Value": 4.83
+    },
+    {
+        "Country": "Iceland",
+        "Time": "Nov-2017",
+        "Value": 4.7
+    },
+    {
+        "Country": "Iceland",
+        "Time": "Dec-2017",
+        "Value": 4.85
+    },
+    {
+        "Country": "Ireland",
+        "Time": "2017",
+        "Value": 0.7925
+    },
+    {
+        "Country": "Ireland",
+        "Time": "Jan-2017",
+        "Value": 1.16
+    },
+    {
+        "Country": "Ireland",
+        "Time": "Feb-2017",
+        "Value": 0.88
+    },
+    {
+        "Country": "Ireland",
+        "Time": "Mar-2017",
+        "Value": 0.98
+    },
+    {
+        "Country": "Ireland",
+        "Time": "Apr-2017",
+        "Value": 0.84
+    },
+    {
+        "Country": "Ireland",
+        "Time": "May-2017",
+        "Value": 0.76
+    },
+    {
+        "Country": "Ireland",
+        "Time": "Jun-2017",
+        "Value": 0.86
+    },
+    {
+        "Country": "Ireland",
+        "Time": "Jul-2017",
+        "Value": 0.83
+    },
+    {
+        "Country": "Ireland",
+        "Time": "Aug-2017",
+        "Value": 0.67
+    },
+    {
+        "Country": "Ireland",
+        "Time": "Sep-2017",
+        "Value": 0.72
+    },
+    {
+        "Country": "Ireland",
+        "Time": "Oct-2017",
+        "Value": 0.57
+    },
+    {
+        "Country": "Ireland",
+        "Time": "Nov-2017",
+        "Value": 0.58
+    },
+    {
+        "Country": "Ireland",
+        "Time": "Dec-2017",
+        "Value": 0.66
+    },
+    {
+        "Country": "Italy",
+        "Time": "2017",
+        "Value": 2.112925
+    },
+    {
+        "Country": "Italy",
+        "Time": "Jan-2017",
+        "Value": 1.9911
+    },
+    {
+        "Country": "Italy",
+        "Time": "Feb-2017",
+        "Value": 2.352
+    },
+    {
+        "Country": "Italy",
+        "Time": "Mar-2017",
+        "Value": 2.401
+    },
+    {
+        "Country": "Italy",
+        "Time": "Apr-2017",
+        "Value": 2.2569999999999997
+    },
+    {
+        "Country": "Italy",
+        "Time": "May-2017",
+        "Value": 2.194
+    },
+    {
+        "Country": "Italy",
+        "Time": "Jun-2017",
+        "Value": 2.053
+    },
+    {
+        "Country": "Italy",
+        "Time": "Jul-2017",
+        "Value": 2.231
+    },
+    {
+        "Country": "Italy",
+        "Time": "Aug-2017",
+        "Value": 2.1099
+    },
+    {
+        "Country": "Italy",
+        "Time": "Sep-2017",
+        "Value": 2.1095
+    },
+    {
+        "Country": "Italy",
+        "Time": "Oct-2017",
+        "Value": 2.0738
+    },
+    {
+        "Country": "Italy",
+        "Time": "Nov-2017",
+        "Value": 1.7888
+    },
+    {
+        "Country": "Italy",
+        "Time": "Dec-2017",
+        "Value": 1.794
+    },
+    {
+        "Country": "Japan",
+        "Time": "2017",
+        "Value": 0.05166667
+    },
+    {
+        "Country": "Japan",
+        "Time": "Jan-2017",
+        "Value": 0.085
+    },
+    {
+        "Country": "Japan",
+        "Time": "Feb-2017",
+        "Value": 0.05
+    },
+    {
+        "Country": "Japan",
+        "Time": "Mar-2017",
+        "Value": 0.065
+    },
+    {
+        "Country": "Japan",
+        "Time": "Apr-2017",
+        "Value": 0.015
+    },
+    {
+        "Country": "Japan",
+        "Time": "May-2017",
+        "Value": 0.04
+    },
+    {
+        "Country": "Japan",
+        "Time": "Jun-2017",
+        "Value": 0.075
+    },
+    {
+        "Country": "Japan",
+        "Time": "Jul-2017",
+        "Value": 0.075
+    },
+    {
+        "Country": "Japan",
+        "Time": "Aug-2017",
+        "Value": 0.01
+    },
+    {
+        "Country": "Japan",
+        "Time": "Sep-2017",
+        "Value": 0.06
+    },
+    {
+        "Country": "Japan",
+        "Time": "Oct-2017",
+        "Value": 0.065
+    },
+    {
+        "Country": "Japan",
+        "Time": "Nov-2017",
+        "Value": 0.035
+    },
+    {
+        "Country": "Japan",
+        "Time": "Dec-2017",
+        "Value": 0.045
+    },
+    {
+        "Country": "Korea",
+        "Time": "2017",
+        "Value": 2.2825830000000003
+    },
+    {
+        "Country": "Korea",
+        "Time": "Jan-2017",
+        "Value": 2.1109999999999998
+    },
+    {
+        "Country": "Korea",
+        "Time": "Feb-2017",
+        "Value": 2.1630000000000003
+    },
+    {
+        "Country": "Korea",
+        "Time": "Mar-2017",
+        "Value": 2.221
+    },
+    {
+        "Country": "Korea",
+        "Time": "Apr-2017",
+        "Value": 2.182
+    },
+    {
+        "Country": "Korea",
+        "Time": "May-2017",
+        "Value": 2.2569999999999997
+    },
+    {
+        "Country": "Korea",
+        "Time": "Jun-2017",
+        "Value": 2.165
+    },
+    {
+        "Country": "Korea",
+        "Time": "Jul-2017",
+        "Value": 2.252
+    },
+    {
+        "Country": "Korea",
+        "Time": "Aug-2017",
+        "Value": 2.287
+    },
+    {
+        "Country": "Korea",
+        "Time": "Sep-2017",
+        "Value": 2.286
+    },
+    {
+        "Country": "Korea",
+        "Time": "Oct-2017",
+        "Value": 2.455
+    },
+    {
+        "Country": "Korea",
+        "Time": "Nov-2017",
+        "Value": 2.54
+    },
+    {
+        "Country": "Korea",
+        "Time": "Dec-2017",
+        "Value": 2.472
+    },
+    {
+        "Country": "Luxembourg",
+        "Time": "2017",
+        "Value": 0.5027077999999999
+    },
+    {
+        "Country": "Luxembourg",
+        "Time": "Jan-2017",
+        "Value": -0.07609091
+    },
+    {
+        "Country": "Luxembourg",
+        "Time": "Feb-2017",
+        "Value": 0.5543
+    },
+    {
+        "Country": "Luxembourg",
+        "Time": "Mar-2017",
+        "Value": 0.5994348
+    },
+    {
+        "Country": "Luxembourg",
+        "Time": "Apr-2017",
+        "Value": 0.4883
+    },
+    {
+        "Country": "Luxembourg",
+        "Time": "May-2017",
+        "Value": 0.5690435
+    },
+    {
+        "Country": "Luxembourg",
+        "Time": "Jun-2017",
+        "Value": 0.5188636
+    },
+    {
+        "Country": "Luxembourg",
+        "Time": "Jul-2017",
+        "Value": 0.6927619
+    },
+    {
+        "Country": "Luxembourg",
+        "Time": "Aug-2017",
+        "Value": 0.5696087
+    },
+    {
+        "Country": "Luxembourg",
+        "Time": "Sep-2017",
+        "Value": 0.554381
+    },
+    {
+        "Country": "Luxembourg",
+        "Time": "Oct-2017",
+        "Value": 0.5701818000000001
+    },
+    {
+        "Country": "Luxembourg",
+        "Time": "Nov-2017",
+        "Value": 0.5000909
+    },
+    {
+        "Country": "Luxembourg",
+        "Time": "Dec-2017",
+        "Value": 0.4916191
+    },
+    {
+        "Country": "Mexico",
+        "Time": "2017",
+        "Value": 7.248333000000001
+    },
+    {
+        "Country": "Mexico",
+        "Time": "Jan-2017",
+        "Value": 7.6
+    },
+    {
+        "Country": "Mexico",
+        "Time": "Mar-2017",
+        "Value": 7.4
+    },
+    {
+        "Country": "Mexico",
+        "Time": "Apr-2017",
+        "Value": 7.24
+    },
+    {
+        "Country": "Mexico",
+        "Time": "May-2017",
+        "Value": 7.32
+    },
+    {
+        "Country": "Mexico",
+        "Time": "Jul-2017",
+        "Value": 6.88
+    },
+    {
+        "Country": "Mexico",
+        "Time": "Aug-2017",
+        "Value": 6.89
+    },
+    {
+        "Country": "Mexico",
+        "Time": "Sep-2017",
+        "Value": 6.79
+    },
+    {
+        "Country": "Mexico",
+        "Time": "Nov-2017",
+        "Value": 7.19
+    },
+    {
+        "Country": "Mexico",
+        "Time": "Dec-2017",
+        "Value": 7.53
+    },
+    {
+        "Country": "Netherlands",
+        "Time": "2017",
+        "Value": 0.5220832999999999
+    },
+    {
+        "Country": "Netherlands",
+        "Time": "Jan-2017",
+        "Value": 0.48100000000000004
+    },
+    {
+        "Country": "Netherlands",
+        "Time": "Feb-2017",
+        "Value": 0.486
+    },
+    {
+        "Country": "Netherlands",
+        "Time": "Mar-2017",
+        "Value": 0.485
+    },
+    {
+        "Country": "Netherlands",
+        "Time": "Apr-2017",
+        "Value": 0.498
+    },
+    {
+        "Country": "Netherlands",
+        "Time": "May-2017",
+        "Value": 0.589
+    },
+    {
+        "Country": "Netherlands",
+        "Time": "Jun-2017",
+        "Value": 0.503
+    },
+    {
+        "Country": "Netherlands",
+        "Time": "Jul-2017",
+        "Value": 0.688
+    },
+    {
+        "Country": "Netherlands",
+        "Time": "Aug-2017",
+        "Value": 0.542
+    },
+    {
+        "Country": "Netherlands",
+        "Time": "Sep-2017",
+        "Value": 0.532
+    },
+    {
+        "Country": "Netherlands",
+        "Time": "Oct-2017",
+        "Value": 0.541
+    },
+    {
+        "Country": "Netherlands",
+        "Time": "Nov-2017",
+        "Value": 0.46799999999999997
+    },
+    {
+        "Country": "Netherlands",
+        "Time": "Dec-2017",
+        "Value": 0.452
+    },
+    {
+        "Country": "New Zealand",
+        "Time": "2017",
+        "Value": 2.9908330000000003
+    },
+    {
+        "Country": "New Zealand",
+        "Time": "Jan-2017",
+        "Value": 3.23
+    },
+    {
+        "Country": "New Zealand",
+        "Time": "Feb-2017",
+        "Value": 3.29
+    },
+    {
+        "Country": "New Zealand",
+        "Time": "Mar-2017",
+        "Value": 3.28
+    },
+    {
+        "Country": "New Zealand",
+        "Time": "Apr-2017",
+        "Value": 3.05
+    },
+    {
+        "Country": "New Zealand",
+        "Time": "May-2017",
+        "Value": 2.93
+    },
+    {
+        "Country": "New Zealand",
+        "Time": "Jun-2017",
+        "Value": 2.77
+    },
+    {
+        "Country": "New Zealand",
+        "Time": "Jul-2017",
+        "Value": 2.97
+    },
+    {
+        "Country": "New Zealand",
+        "Time": "Aug-2017",
+        "Value": 2.88
+    },
+    {
+        "Country": "New Zealand",
+        "Time": "Sep-2017",
+        "Value": 2.91
+    },
+    {
+        "Country": "New Zealand",
+        "Time": "Oct-2017",
+        "Value": 2.97
+    },
+    {
+        "Country": "New Zealand",
+        "Time": "Nov-2017",
+        "Value": 2.85
+    },
+    {
+        "Country": "New Zealand",
+        "Time": "Dec-2017",
+        "Value": 2.76
+    },
+    {
+        "Country": "Norway",
+        "Time": "2017",
+        "Value": 1.6375
+    },
+    {
+        "Country": "Norway",
+        "Time": "Jan-2017",
+        "Value": 1.69
+    },
+    {
+        "Country": "Norway",
+        "Time": "Feb-2017",
+        "Value": 1.74
+    },
+    {
+        "Country": "Norway",
+        "Time": "Mar-2017",
+        "Value": 1.77
+    },
+    {
+        "Country": "Norway",
+        "Time": "Apr-2017",
+        "Value": 1.61
+    },
+    {
+        "Country": "Norway",
+        "Time": "May-2017",
+        "Value": 1.59
+    },
+    {
+        "Country": "Norway",
+        "Time": "Jun-2017",
+        "Value": 1.53
+    },
+    {
+        "Country": "Norway",
+        "Time": "Jul-2017",
+        "Value": 1.69
+    },
+    {
+        "Country": "Norway",
+        "Time": "Aug-2017",
+        "Value": 1.62
+    },
+    {
+        "Country": "Norway",
+        "Time": "Sep-2017",
+        "Value": 1.59
+    },
+    {
+        "Country": "Norway",
+        "Time": "Oct-2017",
+        "Value": 1.66
+    },
+    {
+        "Country": "Norway",
+        "Time": "Nov-2017",
+        "Value": 1.59
+    },
+    {
+        "Country": "Norway",
+        "Time": "Dec-2017",
+        "Value": 1.57
+    },
+    {
+        "Country": "Poland",
+        "Time": "2017",
+        "Value": 3.42
+    },
+    {
+        "Country": "Poland",
+        "Time": "Jan-2017",
+        "Value": 3.68
+    },
+    {
+        "Country": "Poland",
+        "Time": "Feb-2017",
+        "Value": 3.81
+    },
+    {
+        "Country": "Poland",
+        "Time": "Mar-2017",
+        "Value": 3.66
+    },
+    {
+        "Country": "Poland",
+        "Time": "Apr-2017",
+        "Value": 3.42
+    },
+    {
+        "Country": "Poland",
+        "Time": "May-2017",
+        "Value": 3.35
+    },
+    {
+        "Country": "Poland",
+        "Time": "Jun-2017",
+        "Value": 3.19
+    },
+    {
+        "Country": "Poland",
+        "Time": "Jul-2017",
+        "Value": 3.3
+    },
+    {
+        "Country": "Poland",
+        "Time": "Aug-2017",
+        "Value": 3.33
+    },
+    {
+        "Country": "Poland",
+        "Time": "Sep-2017",
+        "Value": 3.26
+    },
+    {
+        "Country": "Poland",
+        "Time": "Oct-2017",
+        "Value": 3.38
+    },
+    {
+        "Country": "Poland",
+        "Time": "Nov-2017",
+        "Value": 3.39
+    },
+    {
+        "Country": "Poland",
+        "Time": "Dec-2017",
+        "Value": 3.27
+    },
+    {
+        "Country": "Portugal",
+        "Time": "2017",
+        "Value": 3.0525
+    },
+    {
+        "Country": "Portugal",
+        "Time": "Jan-2017",
+        "Value": 3.95
+    },
+    {
+        "Country": "Portugal",
+        "Time": "Feb-2017",
+        "Value": 4.04
+    },
+    {
+        "Country": "Portugal",
+        "Time": "Mar-2017",
+        "Value": 3.99
+    },
+    {
+        "Country": "Portugal",
+        "Time": "Apr-2017",
+        "Value": 3.77
+    },
+    {
+        "Country": "Portugal",
+        "Time": "May-2017",
+        "Value": 3.29
+    },
+    {
+        "Country": "Portugal",
+        "Time": "Jun-2017",
+        "Value": 2.97
+    },
+    {
+        "Country": "Portugal",
+        "Time": "Jul-2017",
+        "Value": 3.03
+    },
+    {
+        "Country": "Portugal",
+        "Time": "Aug-2017",
+        "Value": 2.83
+    },
+    {
+        "Country": "Portugal",
+        "Time": "Sep-2017",
+        "Value": 2.63
+    },
+    {
+        "Country": "Portugal",
+        "Time": "Oct-2017",
+        "Value": 2.32
+    },
+    {
+        "Country": "Portugal",
+        "Time": "Nov-2017",
+        "Value": 1.98
+    },
+    {
+        "Country": "Portugal",
+        "Time": "Dec-2017",
+        "Value": 1.83
+    },
+    {
+        "Country": "Slovak Republic",
+        "Time": "2017",
+        "Value": 0.9166667
+    },
+    {
+        "Country": "Slovak Republic",
+        "Time": "Jan-2017",
+        "Value": 1.03
+    },
+    {
+        "Country": "Slovak Republic",
+        "Time": "Feb-2017",
+        "Value": 1.09
+    },
+    {
+        "Country": "Slovak Republic",
+        "Time": "Mar-2017",
+        "Value": 1.09
+    },
+    {
+        "Country": "Slovak Republic",
+        "Time": "Apr-2017",
+        "Value": 1.06
+    },
+    {
+        "Country": "Slovak Republic",
+        "Time": "May-2017",
+        "Value": 1.03
+    },
+    {
+        "Country": "Slovak Republic",
+        "Time": "Jun-2017",
+        "Value": 0.86
+    },
+    {
+        "Country": "Slovak Republic",
+        "Time": "Jul-2017",
+        "Value": 0.93
+    },
+    {
+        "Country": "Slovak Republic",
+        "Time": "Aug-2017",
+        "Value": 0.83
+    },
+    {
+        "Country": "Slovak Republic",
+        "Time": "Sep-2017",
+        "Value": 0.82
+    },
+    {
+        "Country": "Slovak Republic",
+        "Time": "Oct-2017",
+        "Value": 0.83
+    },
+    {
+        "Country": "Slovak Republic",
+        "Time": "Nov-2017",
+        "Value": 0.76
+    },
+    {
+        "Country": "Slovak Republic",
+        "Time": "Dec-2017",
+        "Value": 0.67
+    },
+    {
+        "Country": "Spain",
+        "Time": "2017",
+        "Value": 1.557866
+    },
+    {
+        "Country": "Spain",
+        "Time": "Jan-2017",
+        "Value": 1.466318
+    },
+    {
+        "Country": "Spain",
+        "Time": "Feb-2017",
+        "Value": 1.703
+    },
+    {
+        "Country": "Spain",
+        "Time": "Mar-2017",
+        "Value": 1.7175220000000002
+    },
+    {
+        "Country": "Spain",
+        "Time": "Apr-2017",
+        "Value": 1.6177780000000002
+    },
+    {
+        "Country": "Spain",
+        "Time": "May-2017",
+        "Value": 1.568409
+    },
+    {
+        "Country": "Spain",
+        "Time": "Jun-2017",
+        "Value": 1.452318
+    },
+    {
+        "Country": "Spain",
+        "Time": "Jul-2017",
+        "Value": 1.59781
+    },
+    {
+        "Country": "Spain",
+        "Time": "Aug-2017",
+        "Value": 1.484864
+    },
+    {
+        "Country": "Spain",
+        "Time": "Sep-2017",
+        "Value": 1.5412860000000002
+    },
+    {
+        "Country": "Spain",
+        "Time": "Oct-2017",
+        "Value": 1.614682
+    },
+    {
+        "Country": "Spain",
+        "Time": "Nov-2017",
+        "Value": 1.488773
+    },
+    {
+        "Country": "Spain",
+        "Time": "Dec-2017",
+        "Value": 1.441632
+    },
+    {
+        "Country": "Sweden",
+        "Time": "2017",
+        "Value": 0.655
+    },
+    {
+        "Country": "Sweden",
+        "Time": "Jan-2017",
+        "Value": 0.65
+    },
+    {
+        "Country": "Sweden",
+        "Time": "Feb-2017",
+        "Value": 0.66
+    },
+    {
+        "Country": "Sweden",
+        "Time": "Mar-2017",
+        "Value": 0.69
+    },
+    {
+        "Country": "Sweden",
+        "Time": "Apr-2017",
+        "Value": 0.57
+    },
+    {
+        "Country": "Sweden",
+        "Time": "May-2017",
+        "Value": 0.56
+    },
+    {
+        "Country": "Sweden",
+        "Time": "Jun-2017",
+        "Value": 0.46
+    },
+    {
+        "Country": "Sweden",
+        "Time": "Jul-2017",
+        "Value": 0.66
+    },
+    {
+        "Country": "Sweden",
+        "Time": "Aug-2017",
+        "Value": 0.63
+    },
+    {
+        "Country": "Sweden",
+        "Time": "Sep-2017",
+        "Value": 0.62
+    },
+    {
+        "Country": "Sweden",
+        "Time": "Oct-2017",
+        "Value": 0.88
+    },
+    {
+        "Country": "Sweden",
+        "Time": "Nov-2017",
+        "Value": 0.76
+    },
+    {
+        "Country": "Sweden",
+        "Time": "Dec-2017",
+        "Value": 0.72
+    },
+    {
+        "Country": "Switzerland",
+        "Time": "2017",
+        "Value": -0.07208333
+    },
+    {
+        "Country": "Switzerland",
+        "Time": "Jan-2017",
+        "Value": -0.07200000000000001
+    },
+    {
+        "Country": "Switzerland",
+        "Time": "Feb-2017",
+        "Value": -0.213
+    },
+    {
+        "Country": "Switzerland",
+        "Time": "Mar-2017",
+        "Value": -0.1
+    },
+    {
+        "Country": "Switzerland",
+        "Time": "Apr-2017",
+        "Value": -0.096
+    },
+    {
+        "Country": "Switzerland",
+        "Time": "May-2017",
+        "Value": -0.145
+    },
+    {
+        "Country": "Switzerland",
+        "Time": "Jun-2017",
+        "Value": -0.025
+    },
+    {
+        "Country": "Switzerland",
+        "Time": "Jul-2017",
+        "Value": 0.06
+    },
+    {
+        "Country": "Switzerland",
+        "Time": "Aug-2017",
+        "Value": -0.114
+    },
+    {
+        "Country": "Switzerland",
+        "Time": "Sep-2017",
+        "Value": 0.017
+    },
+    {
+        "Country": "Switzerland",
+        "Time": "Oct-2017",
+        "Value": -0.028999999999999998
+    },
+    {
+        "Country": "Switzerland",
+        "Time": "Nov-2017",
+        "Value": -0.053
+    },
+    {
+        "Country": "Switzerland",
+        "Time": "Dec-2017",
+        "Value": -0.095
+    },
+    {
+        "Country": "United Kingdom",
+        "Time": "2017",
+        "Value": 1.235808
+    },
+    {
+        "Country": "United Kingdom",
+        "Time": "Jan-2017",
+        "Value": 1.4203
+    },
+    {
+        "Country": "United Kingdom",
+        "Time": "Feb-2017",
+        "Value": 1.3058
+    },
+    {
+        "Country": "United Kingdom",
+        "Time": "Mar-2017",
+        "Value": 1.194
+    },
+    {
+        "Country": "United Kingdom",
+        "Time": "Apr-2017",
+        "Value": 1.0789
+    },
+    {
+        "Country": "United Kingdom",
+        "Time": "May-2017",
+        "Value": 1.1175
+    },
+    {
+        "Country": "United Kingdom",
+        "Time": "Jun-2017",
+        "Value": 1.0846
+    },
+    {
+        "Country": "United Kingdom",
+        "Time": "Jul-2017",
+        "Value": 1.2713
+    },
+    {
+        "Country": "United Kingdom",
+        "Time": "Aug-2017",
+        "Value": 1.1241
+    },
+    {
+        "Country": "United Kingdom",
+        "Time": "Sep-2017",
+        "Value": 1.2436
+    },
+    {
+        "Country": "United Kingdom",
+        "Time": "Oct-2017",
+        "Value": 1.3816
+    },
+    {
+        "Country": "United Kingdom",
+        "Time": "Nov-2017",
+        "Value": 1.3299
+    },
+    {
+        "Country": "United Kingdom",
+        "Time": "Dec-2017",
+        "Value": 1.2781
+    },
+    {
+        "Country": "United States",
+        "Time": "2017",
+        "Value": 2.33
+    },
+    {
+        "Country": "United States",
+        "Time": "Jan-2017",
+        "Value": 2.43
+    },
+    {
+        "Country": "United States",
+        "Time": "Feb-2017",
+        "Value": 2.42
+    },
+    {
+        "Country": "United States",
+        "Time": "Mar-2017",
+        "Value": 2.48
+    },
+    {
+        "Country": "United States",
+        "Time": "Apr-2017",
+        "Value": 2.3
+    },
+    {
+        "Country": "United States",
+        "Time": "May-2017",
+        "Value": 2.3
+    },
+    {
+        "Country": "United States",
+        "Time": "Jun-2017",
+        "Value": 2.19
+    },
+    {
+        "Country": "United States",
+        "Time": "Jul-2017",
+        "Value": 2.32
+    },
+    {
+        "Country": "United States",
+        "Time": "Aug-2017",
+        "Value": 2.21
+    },
+    {
+        "Country": "United States",
+        "Time": "Sep-2017",
+        "Value": 2.2
+    },
+    {
+        "Country": "United States",
+        "Time": "Oct-2017",
+        "Value": 2.36
+    },
+    {
+        "Country": "United States",
+        "Time": "Nov-2017",
+        "Value": 2.35
+    },
+    {
+        "Country": "United States",
+        "Time": "Dec-2017",
+        "Value": 2.4
+    },
+    {
+        "Country": "Chile",
+        "Time": "2017",
+        "Value": 4.2449580000000005
+    },
+    {
+        "Country": "Chile",
+        "Time": "Jan-2017",
+        "Value": 4.167268
+    },
+    {
+        "Country": "Chile",
+        "Time": "Feb-2017",
+        "Value": 4.152218
+    },
+    {
+        "Country": "Chile",
+        "Time": "Mar-2017",
+        "Value": 4.201198000000001
+    },
+    {
+        "Country": "Chile",
+        "Time": "Apr-2017",
+        "Value": 3.9007400000000003
+    },
+    {
+        "Country": "Chile",
+        "Time": "May-2017",
+        "Value": 4.026836
+    },
+    {
+        "Country": "Chile",
+        "Time": "Jun-2017",
+        "Value": 4.010154
+    },
+    {
+        "Country": "Chile",
+        "Time": "Jul-2017",
+        "Value": 4.221017
+    },
+    {
+        "Country": "Chile",
+        "Time": "Aug-2017",
+        "Value": 4.328379
+    },
+    {
+        "Country": "Chile",
+        "Time": "Sep-2017",
+        "Value": 4.317871
+    },
+    {
+        "Country": "Chile",
+        "Time": "Oct-2017",
+        "Value": 4.488557
+    },
+    {
+        "Country": "Chile",
+        "Time": "Nov-2017",
+        "Value": 4.5084040000000005
+    },
+    {
+        "Country": "Chile",
+        "Time": "Dec-2017",
+        "Value": 4.616859
+    },
+    {
+        "Country": "Israel",
+        "Time": "2017",
+        "Value": 1.9091669999999998
+    },
+    {
+        "Country": "Israel",
+        "Time": "Jan-2017",
+        "Value": 2.15
+    },
+    {
+        "Country": "Israel",
+        "Time": "Feb-2017",
+        "Value": 2.16
+    },
+    {
+        "Country": "Israel",
+        "Time": "Mar-2017",
+        "Value": 2.11
+    },
+    {
+        "Country": "Israel",
+        "Time": "Apr-2017",
+        "Value": 2.05
+    },
+    {
+        "Country": "Israel",
+        "Time": "May-2017",
+        "Value": 2.16
+    },
+    {
+        "Country": "Israel",
+        "Time": "Jun-2017",
+        "Value": 2.03
+    },
+    {
+        "Country": "Israel",
+        "Time": "Jul-2017",
+        "Value": 1.97
+    },
+    {
+        "Country": "Israel",
+        "Time": "Aug-2017",
+        "Value": 1.75
+    },
+    {
+        "Country": "Israel",
+        "Time": "Sep-2017",
+        "Value": 1.72
+    },
+    {
+        "Country": "Israel",
+        "Time": "Oct-2017",
+        "Value": 1.62
+    },
+    {
+        "Country": "Israel",
+        "Time": "Nov-2017",
+        "Value": 1.6
+    },
+    {
+        "Country": "Israel",
+        "Time": "Dec-2017",
+        "Value": 1.59
+    },
+    {
+        "Country": "Russia",
+        "Time": "2017",
+        "Value": 8.9925
+    },
+    {
+        "Country": "Russia",
+        "Time": "Jan-2017",
+        "Value": 9.62
+    },
+    {
+        "Country": "Russia",
+        "Time": "Feb-2017",
+        "Value": 9.77
+    },
+    {
+        "Country": "Russia",
+        "Time": "Mar-2017",
+        "Value": 9.56
+    },
+    {
+        "Country": "Russia",
+        "Time": "Apr-2017",
+        "Value": 9.33
+    },
+    {
+        "Country": "Russia",
+        "Time": "May-2017",
+        "Value": 9.09
+    },
+    {
+        "Country": "Russia",
+        "Time": "Jun-2017",
+        "Value": 8.99
+    },
+    {
+        "Country": "Russia",
+        "Time": "Jul-2017",
+        "Value": 8.84
+    },
+    {
+        "Country": "Russia",
+        "Time": "Aug-2017",
+        "Value": 8.74
+    },
+    {
+        "Country": "Russia",
+        "Time": "Sep-2017",
+        "Value": 8.65
+    },
+    {
+        "Country": "Russia",
+        "Time": "Oct-2017",
+        "Value": 8.59
+    },
+    {
+        "Country": "Russia",
+        "Time": "Nov-2017",
+        "Value": 8.48
+    },
+    {
+        "Country": "Russia",
+        "Time": "Dec-2017",
+        "Value": 8.25
+    },
+    {
+        "Country": "Slovenia",
+        "Time": "2017",
+        "Value": 0.96
+    },
+    {
+        "Country": "Slovenia",
+        "Time": "Jan-2017",
+        "Value": 0.99
+    },
+    {
+        "Country": "Slovenia",
+        "Time": "Feb-2017",
+        "Value": 1.01
+    },
+    {
+        "Country": "Slovenia",
+        "Time": "Mar-2017",
+        "Value": 0.99
+    },
+    {
+        "Country": "Slovenia",
+        "Time": "Apr-2017",
+        "Value": 1.0
+    },
+    {
+        "Country": "Slovenia",
+        "Time": "May-2017",
+        "Value": 0.98
+    },
+    {
+        "Country": "Slovenia",
+        "Time": "Jun-2017",
+        "Value": 0.86
+    },
+    {
+        "Country": "Slovenia",
+        "Time": "Jul-2017",
+        "Value": 1.15
+    },
+    {
+        "Country": "Slovenia",
+        "Time": "Aug-2017",
+        "Value": 1.09
+    },
+    {
+        "Country": "Slovenia",
+        "Time": "Sep-2017",
+        "Value": 0.98
+    },
+    {
+        "Country": "Slovenia",
+        "Time": "Oct-2017",
+        "Value": 0.97
+    },
+    {
+        "Country": "Slovenia",
+        "Time": "Nov-2017",
+        "Value": 0.81
+    },
+    {
+        "Country": "Slovenia",
+        "Time": "Dec-2017",
+        "Value": 0.69
+    },
+    {
+        "Country": "South Africa",
+        "Time": "2017",
+        "Value": 9.0525
+    },
+    {
+        "Country": "South Africa",
+        "Time": "Jan-2017",
+        "Value": 8.75
+    },
+    {
+        "Country": "South Africa",
+        "Time": "Feb-2017",
+        "Value": 8.73
+    },
+    {
+        "Country": "South Africa",
+        "Time": "Mar-2017",
+        "Value": 8.62
+    },
+    {
+        "Country": "South Africa",
+        "Time": "Apr-2017",
+        "Value": 8.84
+    },
+    {
+        "Country": "South Africa",
+        "Time": "May-2017",
+        "Value": 8.62
+    },
+    {
+        "Country": "South Africa",
+        "Time": "Jun-2017",
+        "Value": 9.01
+    },
+    {
+        "Country": "South Africa",
+        "Time": "Jul-2017",
+        "Value": 9.24
+    },
+    {
+        "Country": "South Africa",
+        "Time": "Aug-2017",
+        "Value": 9.12
+    },
+    {
+        "Country": "South Africa",
+        "Time": "Sep-2017",
+        "Value": 9.0
+    },
+    {
+        "Country": "South Africa",
+        "Time": "Oct-2017",
+        "Value": 9.4
+    },
+    {
+        "Country": "South Africa",
+        "Time": "Nov-2017",
+        "Value": 9.8
+    },
+    {
+        "Country": "South Africa",
+        "Time": "Dec-2017",
+        "Value": 9.5
+    },
+    {
+        "Country": "Latvia",
+        "Time": "Jan-2017",
+        "Value": 0.89
+    },
+    {
+        "Country": "Latvia",
+        "Time": "Feb-2017",
+        "Value": 0.99
+    },
+    {
+        "Country": "Latvia",
+        "Time": "Mar-2017",
+        "Value": 0.94
+    },
+    {
+        "Country": "Latvia",
+        "Time": "Apr-2017",
+        "Value": 0.92
+    },
+    {
+        "Country": "Latvia",
+        "Time": "May-2017",
+        "Value": 0.88
+    },
+    {
+        "Country": "Latvia",
+        "Time": "Jun-2017",
+        "Value": 0.85
+    },
+    {
+        "Country": "Latvia",
+        "Time": "Jul-2017",
+        "Value": 0.98
+    },
+    {
+        "Country": "Latvia",
+        "Time": "Aug-2017",
+        "Value": 0.85
+    },
+    {
+        "Country": "Latvia",
+        "Time": "Sep-2017",
+        "Value": 0.72
+    },
+    {
+        "Country": "Latvia",
+        "Time": "Oct-2017",
+        "Value": 0.71
+    },
+    {
+        "Country": "Latvia",
+        "Time": "Nov-2017",
+        "Value": 0.69
+    },
+    {
+        "Country": "Latvia",
+        "Time": "Dec-2017",
+        "Value": 0.59
+    },
+    {
+        "Country": "Colombia",
+        "Time": "2017",
+        "Value": 6.816667
+    },
+    {
+        "Country": "Colombia",
+        "Time": "Jan-2017",
+        "Value": 6.99
+    },
+    {
+        "Country": "Colombia",
+        "Time": "Feb-2017",
+        "Value": 7.12
+    },
+    {
+        "Country": "Colombia",
+        "Time": "Mar-2017",
+        "Value": 6.84
+    },
+    {
+        "Country": "Colombia",
+        "Time": "Apr-2017",
+        "Value": 6.47
+    },
+    {
+        "Country": "Colombia",
+        "Time": "May-2017",
+        "Value": 6.47
+    },
+    {
+        "Country": "Colombia",
+        "Time": "Jun-2017",
+        "Value": 6.75
+    },
+    {
+        "Country": "Colombia",
+        "Time": "Jul-2017",
+        "Value": 7.0
+    },
+    {
+        "Country": "Colombia",
+        "Time": "Aug-2017",
+        "Value": 6.95
+    },
+    {
+        "Country": "Colombia",
+        "Time": "Sep-2017",
+        "Value": 6.77
+    },
+    {
+        "Country": "Colombia",
+        "Time": "Oct-2017",
+        "Value": 6.86
+    },
+    {
+        "Country": "Colombia",
+        "Time": "Nov-2017",
+        "Value": 6.81
+    },
+    {
+        "Country": "Colombia",
+        "Time": "Dec-2017",
+        "Value": 6.77
+    },
+    {
+        "Country": "Latvia",
+        "Time": "2017",
+        "Value": 0.8341666
+    },
+    {
+        "Country": "Lithuania",
+        "Time": "2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Lithuania",
+        "Time": "Jan-2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Lithuania",
+        "Time": "Feb-2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Lithuania",
+        "Time": "Mar-2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Lithuania",
+        "Time": "Apr-2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Lithuania",
+        "Time": "May-2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Lithuania",
+        "Time": "Jun-2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Lithuania",
+        "Time": "Jul-2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Lithuania",
+        "Time": "Aug-2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Lithuania",
+        "Time": "Sep-2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Lithuania",
+        "Time": "Oct-2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Lithuania",
+        "Time": "Nov-2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Lithuania",
+        "Time": "Dec-2017",
+        "Value": 0.31
+    },
+    {
+        "Country": "Costa Rica",
+        "Time": "Jan-2017",
+        "Value": 8.51
+    },
+    {
+        "Country": "Costa Rica",
+        "Time": "Mar-2017",
+        "Value": 8.51
+    },
+    {
+        "Country": "Costa Rica",
+        "Time": "Apr-2017",
+        "Value": 8.51
+    },
+    {
+        "Country": "Costa Rica",
+        "Time": "May-2017",
+        "Value": 8.51
+    },
+    {
+        "Country": "Costa Rica",
+        "Time": "Jul-2017",
+        "Value": 8.51
+    },
+    {
+        "Country": "Costa Rica",
+        "Time": "Sep-2017",
+        "Value": 8.51
+    },
+    {
+        "Country": "Costa Rica",
+        "Time": "Nov-2017",
+        "Value": 8.51
+    },
+    {
+        "Country": "Costa Rica",
+        "Time": "Dec-2017",
+        "Value": 8.51
+    },
+    {
+        "Country": "India",
+        "Time": "2017",
+        "Value": 6.92425
+    },
+    {
+        "Country": "India",
+        "Time": "Jan-2017",
+        "Value": 6.7925
+    },
+    {
+        "Country": "India",
+        "Time": "Feb-2017",
+        "Value": 6.98
+    },
+    {
+        "Country": "India",
+        "Time": "Mar-2017",
+        "Value": 7.117999999999999
+    },
+    {
+        "Country": "India",
+        "Time": "Apr-2017",
+        "Value": 7.165
+    },
+    {
+        "Country": "India",
+        "Time": "May-2017",
+        "Value": 7.115
+    },
+    {
+        "Country": "India",
+        "Time": "Jun-2017",
+        "Value": 6.584
+    },
+    {
+        "Country": "India",
+        "Time": "Jul-2017",
+        "Value": 6.55
+    },
+    {
+        "Country": "India",
+        "Time": "Aug-2017",
+        "Value": 6.6
+    },
+    {
+        "Country": "India",
+        "Time": "Sep-2017",
+        "Value": 6.724
+    },
+    {
+        "Country": "India",
+        "Time": "Oct-2017",
+        "Value": 6.945
+    },
+    {
+        "Country": "India",
+        "Time": "Nov-2017",
+        "Value": 7.1675
+    },
+    {
+        "Country": "India",
+        "Time": "Dec-2017",
+        "Value": 7.35
+    }
+]
