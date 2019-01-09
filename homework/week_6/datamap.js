@@ -7,7 +7,7 @@
 * Data processing week 6
 *
 * A javascript file, making a linked view visualization
-* With late day wildcard 
+* With late day wildcard
 */
 var pad = []
 window.onload = function() {
@@ -81,7 +81,9 @@ window.onload = function() {
     data.features.forEach(function(d) {
       d.interestData = interestById[d.properties.name]
     });
-
+    console.log(interestById)
+    console.log(interestData)
+    console.log(interestbyCountry)
     // title
     d3.select("div")
       .append("h")
