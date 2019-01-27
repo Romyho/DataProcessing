@@ -19,6 +19,7 @@ txtFile.onload = function () {
 txtFile.onreadystatechange = function() {
     if (txtFile.readyState === 4 && txtFile.status == 200) {
         var data = JSON.parse(txtFile.responseText);
+console.log(data)
 //         // Calculate domain of the values
 //         var max_value = 0;
 //         var min_value = 0;
