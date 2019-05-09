@@ -11,131 +11,130 @@
 <script>
 // Open Json file
 
-var url = "https://cryptopanic.com/api/posts/?auth_token=68534ea86114ec159e00acd0ff56916c9d91bd57&currencies=BTC"
+var url = "https://romyho.github.io/DataProcessing/homework/week_3/MEI_spain_89-17.json"
 var txtFile = new XMLHttpRequest();
 txtFile.open('GET', url, true)
 txtFile.onload = function () {
-
-txtFile.onreadystatechange = function() {
+// txtFile.onreadystatechange = function() {
     if (txtFile.readyState === 4 && txtFile.status == 200) {
         var data = JSON.parse(txtFile.responseText);
-//         // Calculate domain of the values
-//         var max_value = 0;
-//         var min_value = 0;
-//         for(var i in data){
-//
-//           if(data[i].Value > max_value){
-//           max_value = data[i].Value
-//           }
-//           if(data[i].Value < min_value){
-//             min_value = data[i].Value
-//           }
-//         }
-//         dom_value = [min_value, max_value];
-//
-//         max_length = data.length
-//         min_datum = data[0].TIME
-//         max_datum = data[(max_length-1)].TIME
-//         dom_datum = [min_datum, max_datum];
-//
-//         // Set pixel range
-//         range_x = [200, 1000]
-//         range_y = [200, 600]
-//
-//         // Write a function for y and x pixels
-//         createT_y = createTransform(dom_value, range_y);
-//         createT_x = createTransform(dom_datum, range_x);
-//
-//         // Draw line and axis
-//         ctx.setLineDash([]);
-//         var y_as_values = [16,14,12,10,8,6,4,2,0,-2]
-//         for (var i = 0; i<(max_length-1); i++) {
-//           ctx.moveTo(createT_x(data[i].TIME), (620-createT_y(data[i].Value)));
-//           ctx.lineTo(createT_x(data[(i+1)].TIME), (620-createT_y(data[(i+1)].Value)));
-//           var time = data[(i+1)].TIME
-//           var time_x = createT_x(time)
-//           ctx.font = "10px Arial";
-//           ctx.textAlign = "center";
-//           ctx.fillText(time, time_x, 490);
-//           ctx.moveTo(time_x,482)
-//           ctx.lineTo(time_x,473)
-//
-//           }
-//         for (var j = 0; j<(y_as_values.length); j++){
-//           var y = y_as_values[j]
-//           var yy = (632-createT_y(y))
-//           ctx.fillText(y, 171, yy)
-//           if (y > 0){
-//             ctx.moveTo(178,yy)
-//             ctx.lineTo(189,yy)
-//           }
-//         }
-//
-//         // Make titles
-//         ctx.font = "10px Arial";
-//         var begin_time = data[0].TIME
-//         var begin_x = createT_x(begin_time)
-//         ctx.fillText(begin_time, begin_x, 490);
-//         ctx.moveTo(begin_x,482)
-//         ctx.lineTo(begin_x,473)
-//
-//         ctx.font = "20px Arial";
-//         ctx.fillText("Years", 600, 520)
-//
-//         ctx.moveTo(180,0);
-//         ctx.lineTo(180,480);
-//
-//         ctx.moveTo(180,480);
-//         ctx.lineTo(1020,480);
-//         ctx.stroke();
-//
-//         // draw line for y=0
-//         ctx.setLineDash([5, 5]);
-//         ctx.moveTo(180, (625-createT_y(0)));
-//         ctx.lineTo(1020, (625-createT_y(0)));
-//         ctx.stroke()
-//
-//         // yaxis title
-//         ctx.font = "20px Arial";
-//         ctx.rotate(-90 * Math.PI / 180);
-//         ctx.fillText("Interest", -220, 120)
-//       }
+        // Calculate domain of the values
+        var max_value = 0;
+        var min_value = 0;
+        for(var i in data){
+
+          if(data[i].Value > max_value){
+          max_value = data[i].Value
+          }
+          if(data[i].Value < min_value){
+            min_value = data[i].Value
+          }
+        }
+        dom_value = [min_value, max_value];
+
+        max_length = data.length
+        min_datum = data[0].TIME
+        max_datum = data[(max_length-1)].TIME
+        dom_datum = [min_datum, max_datum];
+
+        // Set pixel range
+        range_x = [200, 1000]
+        range_y = [200, 600]
+
+        // Write a function for y and x pixels
+        createT_y = createTransform(dom_value, range_y);
+        createT_x = createTransform(dom_datum, range_x);
+
+        // Draw line and axis
+        ctx.setLineDash([]);
+        var y_as_values = [16,14,12,10,8,6,4,2,0,-2]
+        for (var i = 0; i<(max_length-1); i++) {
+          ctx.moveTo(createT_x(data[i].TIME), (620-createT_y(data[i].Value)));
+          ctx.lineTo(createT_x(data[(i+1)].TIME), (620-createT_y(data[(i+1)].Value)));
+          var time = data[(i+1)].TIME
+          var time_x = createT_x(time)
+          ctx.font = "10px Arial";
+          ctx.textAlign = "center";
+          ctx.fillText(time, time_x, 490);
+          ctx.moveTo(time_x,482)
+          ctx.lineTo(time_x,473)
+
+          }
+        for (var j = 0; j<(y_as_values.length); j++){
+          var y = y_as_values[j]
+          var yy = (632-createT_y(y))
+          ctx.fillText(y, 171, yy)
+          if (y > 0){
+            ctx.moveTo(178,yy)
+            ctx.lineTo(189,yy)
+          }
+        }
+
+        // Make titles
+        ctx.font = "10px Arial";
+        var begin_time = data[0].TIME
+        var begin_x = createT_x(begin_time)
+        ctx.fillText(begin_time, begin_x, 490);
+        ctx.moveTo(begin_x,482)
+        ctx.lineTo(begin_x,473)
+
+        ctx.font = "20px Arial";
+        ctx.fillText("Years", 600, 520)
+
+        ctx.moveTo(180,0);
+        ctx.lineTo(180,480);
+
+        ctx.moveTo(180,480);
+        ctx.lineTo(1020,480);
+        ctx.stroke();
+
+        // draw line for y=0
+        ctx.setLineDash([5, 5]);
+        ctx.moveTo(180, (625-createT_y(0)));
+        ctx.lineTo(1020, (625-createT_y(0)));
+        ctx.stroke()
+
+        // yaxis title
+        ctx.font = "20px Arial";
+        ctx.rotate(-90 * Math.PI / 180);
+        ctx.fillText("Interest", -220, 120)
+      }
     }
 txtFile.send(null);
-// function createTransform(domain, range){
-// 	// domain is a two-element array of the data bounds [domain_min, domain_max]
-// 	// range is a two-element array of the screen bounds [range_min, range_max]
-// 	// this gives you two equations to solve:
-// 	// range_min = alpha * domain_min + beta
-// 	// range_max = alpha * domain_max + beta
-//  		// a solution would be:
-//
-//     var domain_min = domain[0]
-//     var domain_max = domain[1]
-//     var range_min = range[0]
-//     var range_max = range[1]
-//
-//     // formulas to calculate the alpha and the beta
-//    	var alpha = (range_max - range_min) / (domain_max - domain_min)
-//     var beta = range_max - alpha * domain_max
-//
-//     // returns the function for the linear transformation (y= a * x + b)
-//     return function(x){
-//       return alpha * x + beta;
+function createTransform(domain, range){
+	// domain is a two-element array of the data bounds [domain_min, domain_max]
+	// range is a two-element array of the screen bounds [range_min, range_max]
+	// this gives you two equations to solve:
+	// range_min = alpha * domain_min + beta
+	// range_max = alpha * domain_max + beta
+ 		// a solution would be:
+
+    var domain_min = domain[0]
+    var domain_max = domain[1]
+    var range_min = range[0]
+    var range_max = range[1]
+
+    // formulas to calculate the alpha and the beta
+   	var alpha = (range_max - range_min) / (domain_max - domain_min)
+    var beta = range_max - alpha * domain_max
+
+    // returns the function for the linear transformation (y= a * x + b)
+    return function(x){
+      return alpha * x + beta;
     }
 }
-//
-// // Name, Student Number, assignment title, graph title
-// var canvas = document.getElementById('canvas');
-// var ctx = canvas.getContext('2d');
-// ctx.font = "30px Arial";
-// ctx.textAlign = "center";
-// ctx.fillText("Annual Interest Spain 1989-2017 ", 700, 30);
-// ctx.font = "18px Arial";
-// ctx.fillText("Romy Ho", 82,16)
-// ctx.fillText("11007303",82,34)
-// ctx.fillText("Assignment week 3:JavaScript intro", 150, 600)
-// ctx.fillText("Scroll down for data link", 100, 650)
+
+// Name, Student Number, assignment title, graph title
+var canvas = document.getElementById('canvas');
+var ctx = canvas.getContext('2d');
+ctx.font = "30px Arial";
+ctx.textAlign = "center";
+ctx.fillText("Annual Interest Spain 1989-2017 ", 700, 30);
+ctx.font = "18px Arial";
+ctx.fillText("Romy Ho", 82,16)
+ctx.fillText("11007303",82,34)
+ctx.fillText("Assignment week 3:JavaScript intro", 150, 600)
+ctx.fillText("Scroll down for data link", 100, 650)
 
 </script>
 

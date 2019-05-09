@@ -105,6 +105,7 @@ window.onload = function() {
         .style('stroke-width', 1.5)
         .style("opacity",0.8)
         .on('click', function(d){
+          console.log(d);
         update(interestbyCountry[d.properties.name],  d)
         } )
         // tooltips
